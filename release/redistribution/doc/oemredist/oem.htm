@@ -1,0 +1,79 @@
+<HTML>
+
+<BODY>
+
+<H2>Windows 8/2012 Windows Store Service crack</H2>
+
+Finally I found complete and easy solution for creating redistributable
+packages for windows store apps. Installation of metro application consist of two steps :<BR>
+1) Deployment of appx<BR>
+2) Installing license<BR>
+<BR>
+To download appx you must initiate downloading from windows store.<BR><BR>
+
+<img src="getappx1.jpg"><BR>
+
+<BR>
+Downloading for windows store is serviced by Windows Update service and special plugin.
+Plugin uses license issued by microsoft to construct authentication tokens for downloading URL.
+Windows Update service log these URLs in C:\windows\WindowsUpdate.log.
+You must view this file, go to its end and look backwards for the URL with ".appx"<BR>
+
+<p>
+2012-11-02	10:41:15:819	 848	97c	DnldMgr	BITS job {6628BD01-FB19-4BA4-878E-647B68A03E9C} using proxy = http=127.0.0.1:8888;https=127.0.0.1:8888, bypass = <-loopback>
+2012-11-02	10:41:15:819	 848	97c	DnldMgr	  * Downloading from http://aq.v4.a.dl.ws.microsoft.com/dl/content/a/6/updt/2012/10/773eb007-cfa0-42c6-8637-b6f324674097_604a47b6923fc8134b38a7b617a9008522c6d39d.appx?P1=1352357631&P2=1&P3=1&P4=DhqM4bxnTeeoGUznS1ljT42XQLw%3d to C:\Windows\SoftwareDistribution\Download\037d6d8cd2e59f6a073df87d23f8ea09\604a47b6923fc8134b38a7b617a9008522c6d39d_2 (5 subranges).
+</p>
+
+<BR>
+Here is your url. Copy-paste it in your favourite browser and download will start.
+URL is temporary and available only for short time window.
+
+<BR>
+Package data being downloaded by Windows Update rest in C:\windows\SoftwareDistribution\Download\<many__hex_digits>.
+If you have downloaded the package earlier Windows Update will use cached data and no downloading will occur and you will not know the URL.
+You must first delete cached data folder. If you cannot find your package inside "Download" folder - it is safe to delete all content under "Download" - but don't delete "Download" folder itself.
+
+<BR><BR>
+To simplify this task you can use TokenExtractor's function "Dig for .appx URL". Dialog will open with the list of .appx URLs found in WindowsUpdate.log. Cursor will be automatically positioned at the last found URL - this is what you need. You can copy URL or start downloading.
+Note : internet explorer tries automatically rename file extension to .zip. This is wrong.<BR>
+TokenExtract also allows deletion of download cache.
+<BR><BR>
+<img src="DigURL.jpg"><BR>
+
+
+<BR><BR>
+As alternate method you can use fiddler to intercept url.
+Enable loopback exempt for Store.<BR><BR>
+
+<img src="exempt1.jpg"><BR>
+<img src="exempt2.jpg"><BR>
+
+<BR><BR>Then find and copy URL.<BR><BR>
+<img src="getappx2.jpg"><BR>
+
+<BR><BR>
+
+Second part - install bogus license for your app.<BR>
+Run TokenExtractor.exe. Select your product from the list (typically should be at the end) and press "View".<BR><BR>
+
+<img src="textract1.jpg"><BR>
+
+<BR>Press "Convert to OEM" and "Save OEM". Save your lic file.<BR><BR>
+
+<img src="textract2.jpg"><BR>
+
+<BR><BR>
+
+To install on clean machine you must :<BR>
+1) powershell add-appxpackage PilotBrothers.appx -dependency Microsoft.VCLibs.x64.11.00.appx<BR>
+Apps may require different dependencies. Which dependencies are required and what version you can know from error message. Or you can extract AppManifest.xml from appx (appx is just a zip archive) and look there. Deps coming with visual studio 2012 can be found in appx_deps folder. Microsoft can and will update deps version and new apps may require them. You can try to find them in the latest SDK for Windows Store apps.<BR>
+2) install WSServiceCrk<BR>
+3) wsll PilotBrothers.lic<BR>
+<BR>
+And you go. Windows store not needed at all.
+You can share application with you friends.
+See my redistribution sample.
+<BR>
+
+</BODY>
+</HTML>

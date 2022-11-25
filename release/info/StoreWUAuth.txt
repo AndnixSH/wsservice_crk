@@ -1,0 +1,30 @@
+In addition to WSService one more protection component exist - authentication of downloads.
+Microsoft will allow you to download content only on behalf of valid license signed by them.
+
+When you start installing an app from winstore client - request goes to windows update service.
+If package is in the local cache (C:\windows\softwaredistribution\download) it is used without redownloading.
+Otherwise storewuauth.dll is invoked. It's purpose - return downloading URLs to windows update.
+It requests WSService for license and constructs authentication tokens based on the license.
+Authentication tokens are passed to microsoft as parameters. If microsoft finds them invalid it returns
+http error 403 (Forbidden). Storewuauth caches authentication tokens no matter request was successfull or not
+and next time you try to redownload the app uses the same bad tokens from its cache even if license
+was reinstalled and now valid. That's why you will never recover from this error until you delete
+storewuauth cache.
+When this kind of error happens you can see error code 0x8024600e in winstore client.
+
+Happily you can easily clean token cache. Delete this file :
+C:\Windows\SoftwareDistribution\Plugins\7D5F3CBA-03DB-4BE5-B4B36DBED19A6833\117CAB2D-82B1-4B5A-A08C-4D62DBEE7782.cache
+
+Next time you try storewuauth will have to construct new tokens and now they will be valid (if license is valid).
+
+Please remember : without VALID MICROSOFT SIGNED license YOU CANT DOWNLOAD ANYTHING.
+If you use bogus license you will fail. You have to uninstall bogus license first, clear storewuauth token cache and
+get valid license. Only then you'll be able to download again.
+
+If your trial is over see MachineID.txt. You can reset all trials.
+
+Right idea - do not download/update through winstore client any apps you have bogus license for.
+Correct way - grab appx from VM and install it without winstore.
+On a VM you can try apps forever if you do things described in MachineID.txt - and without sacrificing your real LiveID.
+If you still want to update through winstore - you need first uninstall your bogus license in TokenExtractor
+or you'll get 0x8024600e. But dont forget about trial period. If its over you risk to leave yourself with nothing.

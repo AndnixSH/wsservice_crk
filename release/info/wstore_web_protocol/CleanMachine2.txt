@@ -1,0 +1,239 @@
+We have reverted VM snapshot to initial state.
+We have again clean machine and another new LiveID here. We launch appstore and get free app "Fresh paint"
+
+
+https://lic.apps.microsoft.com/Commerce/Purchase/6.2.9200-1/615/p/1926e0a0-5e41-48e1-ba68-be35f2266a03/t/1/channel/10005001/locale/en-US/market/RU/al/ru-RU
+
+empty request body
+
+RESPONSE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>0.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>р.</CurrencySymbol>
+    <TransactionId>9f4bef0a-2c05-4d2e-84ae-cde21a23e9b9</TransactionId>
+    <ServiceTicket>EwBoApVABAAUqPq18hpYHZBQFiQjg6Ywv8m8HEQAAW4cav9l8vfkiX/eAOL2CweFLiCnr9vqSf0oz+S60/MHJ44+E7bpbdugngbGt3YUpEkXKVXZ9LeVotkyacR9AJJ7XwFY6hxTsxKFlR8URj+zDGjf3feosC95Dcui8CXe2HQpfviY6wYWsQT26ljgS+ZRg+1nC3tGUZpzs+H8tAIfzRHEBlEo3PWY71UoIhUFEzjxFKd61Uw3XVN/53n9hetRwL4G95yOqnUqkrYvJ1ym+YyZgrY1BTwCevjnpXIO2Ld9KXvitvxK+rgEL0e/e0nlsvmaqOm6f98JMotYiD1760uGINYpElHbxnKLa9Spvi49d4stAFics3BXDdQ01Q0DZgAACMRFqe/RzuvtOAH+aD0p6GrEOhoJjcaavL4/EHLzcGux83cY84Mt9mErdAg4y8knmIESCa6GI/MQZWx7Crbc0dEpsu2a1cy/D/ewXD7k0vLmjUmIUB3LgGmhwdEUhUevvS33yLjvVRIoYwGRiWFsbYZw4f4L3wJnZGN0oSSofM3pioUHaao2DrAkXk3Lrsnqlx0Z5ng+dBRm+qzhjsPS00UtauaUzCBpvfqZAj1J5Xc+fwxwj/ezaHKCSc2EEQ0XUniauFvwvaEwUJIIZCom+0t5IAOEVu8X/SDwnl0gdQiMZ9MpzVLaLesga/53A9S9waNa8ytkqBfJApzPK0BKQ9j1ZMLevpnrH9+1y+ScKSmrsCkN7A26jpd3vZBong9TJegCa8EakDstL5XZZxNCLMXa1n41t5TjpoBEP22ZTlrQnXFoAQ==&amp;p=</ServiceTicket>
+    <ReleaseGuid>41c94808-a294-479b-a2fb-b34ec8d903a9</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>1926e0a0-5e41-48e1-ba68-be35f2266a03</I>
+        <R>41c94808-a294-479b-a2fb-b34ec8d903a9</R>
+        <B>41c94808-a294-479b-a2fb-b34ec8d903a9</B>
+        <Pfn>Microsoft.FreshPaint_8wekyb3d8bbwe</Pfn>
+        <T>Fresh Paint</T>
+        <Wr>3</Wr>
+        <Ico>41c94808-a294-479b-a2fb-b34ec8d903a9/Icon.2088.png</Ico>
+        <Bg>#FCD116</Bg>
+        <Fg>dark</Fg>
+        <Sr>4.6</Sr>
+        <R0 />
+        <C>
+          <I>6</I>
+          <N>Развлечения</N>
+        </C>
+        <Sc>
+          <I>60</I>
+          <N>(отсутствует)</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>false</Try>
+        <Lud>2012-10-27T07:09:06.357-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Fresh Paint</N>
+            <Sn>Fresh Paint</Sn>
+            <Bg>#FCD116</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.2.2088.2380.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.1.2088.2380.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+  </Result>
+  <TransactionId>9f4bef0a-2c05-4d2e-84ae-cde21a23e9b9</TransactionId>
+</PurchaseResponse>
+
+
+------------------------------------------------------
+
+https://services.apps.microsoft.com/browse/6.2.9200-1/615/Channel
+
+<GenuineTicketError>0xC004F200</GenuineTicketError>
+
+<Cr><CId>10005001</CId></Cr>
+
+------------------------------------------------------
+
+https://lic.apps.microsoft.com/Commerce/Purchase/6.2.9200-1/615/p/1926e0a0-5e41-48e1-ba68-be35f2266a03/t/1/channel/10005001/locale/en-US/market/RU/al/ru-RU
+
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmBody>
+  <TransactionId>9f4bef0a-2c05-4d2e-84ae-cde21a23e9b9</TransactionId>
+  <Price>0.00</Price>
+  <DigitalMarker>
+    <GenuineTicketError>0xC004F200</GenuineTicketError>
+  </DigitalMarker>
+  <MachineId></MachineId>
+  <challenge>
+    <ClientInformation>
+      <Version>1.0</Version>
+      <ClientVersion>1.0.0.0</ClientVersion>
+      <HardwareID>LgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA==</HardwareID>
+      <SystemName>WIN-342HK2BOO4Q</SystemName>
+      <SystemManufacturer>innotek GmbH</SystemManufacturer>
+      <SystemProductName>VirtualBox</SystemProductName>
+      <N>3220317562</N>
+      <SKU>7</SKU>
+    </ClientInformation>
+    <ProductID>{1926E0A0-5E41-48E1-BA68-BE35F2266A03}</ProductID>
+  </challenge>
+  <SCM>
+    <![CDATA[]]>
+  </SCM>
+    <SendReceipt>false</SendReceipt>
+  </ConfirmBody>
+
+RESPONSE :
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>0.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>р.</CurrencySymbol>
+    <TransactionId>9f4bef0a-2c05-4d2e-84ae-cde21a23e9b9</TransactionId>
+    <ReleaseGuid>41c94808-a294-479b-a2fb-b34ec8d903a9</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>1926e0a0-5e41-48e1-ba68-be35f2266a03</I>
+        <R>41c94808-a294-479b-a2fb-b34ec8d903a9</R>
+        <B>41c94808-a294-479b-a2fb-b34ec8d903a9</B>
+        <Pfn>Microsoft.FreshPaint_8wekyb3d8bbwe</Pfn>
+        <T>Fresh Paint</T>
+        <Wr>3</Wr>
+        <Ico>41c94808-a294-479b-a2fb-b34ec8d903a9/Icon.2088.png</Ico>
+        <Bg>#FCD116</Bg>
+        <Fg>dark</Fg>
+        <Sr>4.6</Sr>
+        <R0 />
+        <C>
+          <I>6</I>
+          <N>Развлечения</N>
+        </C>
+        <Sc>
+          <I>60</I>
+          <N>(отсутствует)</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>false</Try>
+        <Lud>2012-10-27T07:09:06.357-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Fresh Paint</N>
+            <Sn>Fresh Paint</Sn>
+            <Bg>#FCD116</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.2.2088.2380.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.1.2088.2380.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+    <LicensingResponse>
+      <LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0">
+        <MachineIDResponse>77u/PE1hY2hpbmU+PFJlZ2lzdHJhdGlvbj48TWFjaGluZUlEPjU5YzFmYjY2LWFkNzAtNDE4Zi1hMTc2LTdlZjk4NWVjNTJkNzwvTWFjaGluZUlEPjxIYXJkd2FyZUlEPlhBQUFBQk1BTGdBQUFBRUFBd0FCQUFFQUFBQUJBQUFBQVFBQkFBRUErbDZrUE9lREpHYm10LzdiaUFSMjZIYjVHREVBSEEwQUFnQUJBUUFDQlFBREFRQUVBZ0FGQUFBR0FRQUhBQUFJQndBSkF3QUtBUUFMQUFBTUJ3QT08L0hhcmR3YXJlSUQ+PC9SZWdpc3RyYXRpb24+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT5hRWdJL2pac2h2L3UzcjZCL1ZLcU11WkFIODhxcHUwWUkyUGNWaWxqbEdZPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5Xb1MyL0hvUE5XT1J0U202SDJvMk9RTytvdHozY3NqaWx2ZTJ6aEVzU042bml2RXBqbC9PT29zYnZwcTRBR0d2dWdrM3pHVm5MZTdnVUxJbGJqMUlaV0hSS2dJVlNBc0p5UEluaHpVa1lQaGF1aDV2OHhZdGlXTzBtUk9zZ0Z5U2YwWWZLV1oxSjJBUHhDaEcwYlJKVFN2VStob0RaZmkzZ2JDVEUyazQ1UGoxbXVKeFdhUXVNcEswUmhCYm16TlMyZzNtTExwLzgvMzVJR0g4Z2ZYbUl5MDRTcjh2bWJxOS93YmhiNm9ObnlFVHdORmoxVjZxcTdMc1ZxcGtzWVZjMkxWaGlPSXlRYldERFkzNUZoRnN3WC9jdGZpTWI0S0plV0haL0hVbVhaVzdEck94SXYwMWpoVHVueU1LZDZlN0hrQnVaUlFuK0hVNVZIcE9SZjVlR1E9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9NYWNoaW5lPg==</MachineIDResponse>
+        <ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSIzMjIwMzE3NTYyIj48TWFjaGluZUlEPjU5YzFmYjY2LWFkNzAtNDE4Zi1hMTc2LTdlZjk4NWVjNTJkNzwvTWFjaGluZUlEPjxDdXJyZW50VGltZT4yMDEyLTExLTA0VDE1OjQ2OjIyWjwvQ3VycmVudFRpbWU+PC9JbmZvPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIiAvPjxTaWduYXR1cmVNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiAvPjxSZWZlcmVuY2UgVVJJPSIiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIgLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIgLz48RGlnZXN0VmFsdWU+dG5lbE1VRWExVWo3MEVHWkF1TW1FVDZFc0NHVGJZbTBjNjdBUnJZWXlDdz08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+WXA2RzQ3eklBdUMxcHRLbTA2VUUreDZMY3Z2dHZnQVk5dVFWNnpJTzl5S2hHc3V3L1V3bHZUWGlZOXM1T2hTaytrOGNXMDNjanhEeE1maGpBUWVzR3lzTnNPcGZiSzNkL2xVSU1zaGVSUUtYY3Bad2dCa1ZEN0lQc3RsY085bS8xQXNhWUZ3aWFvQjBaNkczanRFZTVRZDZiL28zamt1VjFlUGthRDdwUm9wR2NWYSswemVPV2tBMUp4dDFSZlJJU09tbTJOakNPN05RMFlsa2lQTTN3bEpzTTFmTjQvMXZ6RWVzR0JSa3pQbGp0dlNEb0ZYdXRheXR3MEpBekdSM3JyWnE5UlVXZGJGbXBCckNjWjNLUGlMYm9OcnQ3OGZ4TTAwWUFPMk8vYlNzZENJY3luUXlQOFkzT09QTHVsTzdtYSswbzRQWUlVOGRVY2pvSFlGKzR3PT08L1NpZ25hdHVyZVZhbHVlPjwvU2lnbmF0dXJlPjwvU2VydmVyPg==</ServerInfoResponse>
+        <UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1">
+          <License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD4xOTI2ZTBhMC01ZTQxLTQ4ZTEtYmE2OC1iZTM1ZjIyNjZhMDM8L1Byb2R1Y3RJRD48UEZNPk1pY3Jvc29mdC5GcmVzaFBhaW50Xzh3ZWt5YjNkOGJid2U8L1BGTT48SGFyZHdhcmVJRD5YQUFBQUJNQUxnQUFBQUVBQXdBQkFBRUFBQUFCQUFBQUFRQUJBQUVBK2w2a1BPZURKR2JtdC83YmlBUjI2SGI1R0RFQUhBMEFBZ0FCQVFBQ0JRQURBUUFFQWdBRkFBQUdBUUFIQUFBSUJ3QUpBd0FLQVFBTEFBQU1Cd0E9PC9IYXJkd2FyZUlEPjxNYWNoaW5lSUQ+NTljMWZiNjYtYWQ3MC00MThmLWExNzYtN2VmOTg1ZWM1MmQ3PC9NYWNoaW5lSUQ+PFVzZXJJRD5jYjVkYWIyYTc5OGY4MmVkPC9Vc2VySUQ+PC9CaW5kaW5nPjxMaWNlbnNlSW5mbyBUeXBlPSJGdWxsIj48SXNzdWVkRGF0ZT4yMDEyLTExLTA0VDE1OjQ2OjIyWjwvSXNzdWVkRGF0ZT48TGFzdFVwZGF0ZURhdGU+MjAxMi0xMS0wNFQxNTo0NjoyMlo8L0xhc3RVcGRhdGVEYXRlPjwvTGljZW5zZUluZm8+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT5Qa2EwaUpwd0xwa3FMRTFabHJISHlmaTc5d2RYRGRyRkVBQU03c3NFcEV3PTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5WdnJJMU42QWxSM3ZtSXMzeXVmWk5XQjluNVN5ME9oZXlBcjZlVU9jbnQ1eldoSnFUYUJLREpTZ3ZxSDlKd0hscDZnSkdpajJMb1FrdE1kMERkS0dVSEhZdlk4VWFBYzNsaEEyWmJNa0VneHZQT3FuUk9iNXlZbC9hQnBPdFFaS3ZqRllJeUxFS3lnUVdXakVxOGhTSlIwd1d4b2dyTUZWYjNLbXdVR3R6Mk9hOFJaQkJPaG0yU2tJUnJhNG1DNW9UY3lTU1BJUnVzZ3U3aUtjOVQzZHhxMDljbmdock8rU1R5QzhSM0dFZWwzNVpVUWhHV0JaSlNTS2trdVVGUEVoTnZobWxlaEw3WkoyOEZiQkdEMk1CcWtxeGQ4M2p3WUtXd2FJeGQyOTZ3KzBHRGRCaTE2dlkvWXdmTGFpaGV4UEp6K3hYSEV2dHpCUGIxOU93ajNnRFE9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9MaWNlbnNlPg==</License>
+        </UpdatedLicense>
+      </LicenseResponse>
+    </LicensingResponse>
+  </Result>
+  <TransactionId>9f4bef0a-2c05-4d2e-84ae-cde21a23e9b9</TransactionId>
+</PurchaseResponse>
+
+
+MACHINE ID RESPONSE (Base64) :
+
+
+SERVER GAVE US DIFFERENT MACHINE ID ! THUS ENABLING POSSIBILITY OF TRYING APPS AGAIN UNDER NEW LIVE ID!
+
+<Machine>
+  <Registration>
+    <MachineID>AAAAAAAA-0000-bbbb-cccc-111111111111</MachineID>
+    <HardwareID>XAAAABMALgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+  </Registration>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>aEgI/jZshv/u3r6B/VKqMuZAH88qpu0YI2PcViljlGY=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>WoS2/HoPNWORtSm6H2o2OQO+otz3csjilve2zhEsSN6nivEpjl/OOosbvpq4AGGvugk3zGVnLe7gULIlbj1IZWHRKgIVSAsJyPInhzUkYPhauh5v8xYtiWO0mROsgFySf0YfKWZ1J2APxChG0bRJTSvU+hoDZfi3gbCTE2k45Pj1muJxWaQuMpK0RhBbmzNS2g3mLLp/8/35IGH8gfXmIy04Sr8vmbq9/wbhb6oNnyETwNFj1V6qq7LsVqpksYVc2LVhiOIyQbWDDY35FhFswX/ctfiMb4KJeWHZ/HUmXZW7DrOxIv01jhTunyMKd6e7HkBuZRQn+HU5VHpORf5eGQ==</SignatureValue>
+  </Signature>
+</Machine>
+
+
+------------------------------
+
+Now we delete tokens.dat and start over.
+
+

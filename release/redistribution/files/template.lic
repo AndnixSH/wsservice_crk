@@ -1,0 +1,10 @@
+<License Version="1" Source="OEM" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID></ProductID>
+    <PFM></PFM>
+  </Binding>
+  <LicenseInfo Type="Full">
+    <IssuedDate>2022-11-01T14:25:14Z</IssuedDate>
+    <LastUpdateDate>2022-11-01T14:25:14Z</LastUpdateDate>
+  </LicenseInfo>
+</License>

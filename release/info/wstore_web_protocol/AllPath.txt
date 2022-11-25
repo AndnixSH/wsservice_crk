@@ -1,0 +1,106 @@
+Here we have trial download of Hydro Thunder Hurricane.
+We already have license. Reinstalling.
+
+Product info :
+
+<Identity Name="Microsoft.Studios.HydroThunderHurricane" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.0.0.0" ProcessorArchitecture="x86" />
+Product ID : {324B3127-A03C-4EC4-BB61-6B4D5B70676A}
+
+
+
+
+https://lic.apps.microsoft.com/Commerce/Purchase/6.2.9200-1/615/p/324b3127-a03c-4ec4-bb61-6b4d5b70676a/t/2/channel/10005001/locale/ru-RU/market/RU/al/en
+
+-----------
+
+http://fe1.ws.microsoft.com/w8/2/redir/storeauth.cab?1211031637
+
+HEAD /w8/2/redir/storeauth.cab?1211031637 HTTP/1.1
+Accept: */*
+User-Agent: Windows-Update-Agent
+Connection: Keep-Alive
+Host: fe1.ws.microsoft.com
+
+HTTP/1.1 200 OK
+Content-Length: 17272
+Content-Type: application/octet-stream
+Last-Modified: Fri, 29 Jun 2012 01:54:40 GMT
+Accept-Ranges: bytes
+ETag: "85d64b259a55cd1:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Sat, 03 Nov 2012 16:37:05 GMT
+
+
+-----------
+
+https://lic.apps.microsoft.com/Licensing/License/AcquireLicense/6.2.9200-1/615
+
+-----------
+
+http://aq.v4.emdl.ws.microsoft.com/emdl/a/6/2012/10/abm_990b379a037dd7a8dedc10ad910bc793886987fe.cab
+
+HEAD /emdl/a/6/2012/10/abm_990b379a037dd7a8dedc10ad910bc793886987fe.cab HTTP/1.1
+Accept: */*
+Accept-Encoding: identity
+User-Agent: Microsoft BITS/7.6
+Connection: Keep-Alive
+Host: aq.v4.emdl.ws.microsoft.com
+
+HTTP/1.1 200 OK
+Content-Length: 583915
+Content-Type: application/octet-stream
+Last-Modified: Thu, 18 Oct 2012 01:16:05 GMT
+Accept-Ranges: bytes
+ETag: "80782425ceaccd1:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Sat, 03 Nov 2012 16:37:11 GMT
+Connection: keep-alive
+X-CCC: FI
+X-CID: 2
+
+-----------
+
+http://aq.v4.emdl.ws.microsoft.com/emdl/a/6/2012/10/abm_990b379a037dd7a8dedc10ad910bc793886987fe.cab
+
+GET /emdl/a/6/2012/10/abm_990b379a037dd7a8dedc10ad910bc793886987fe.cab HTTP/1.1
+Accept: */*
+Accept-Encoding: identity
+If-Unmodified-Since: Thu, 18 Oct 2012 01:16:05 GMT
+User-Agent: Microsoft BITS/7.6
+Connection: Keep-Alive
+Host: aq.v4.emdl.ws.microsoft.com
+
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Last-Modified: Thu, 18 Oct 2012 01:16:05 GMT
+Accept-Ranges: bytes
+ETag: "80782425ceaccd1:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Content-Length: 583915
+Date: Sat, 03 Nov 2012 16:37:12 GMT
+Connection: keep-alive
+X-CCC: FI
+X-CID: 2
+
+
+IN BODY WE HAVE abm_990b379a037dd7a8dedc10ad910bc793886987fe.cab
+It contain BlockMap.xml :
+
+<BlockTables xmlns="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/AppxWUBlockTable">
+  <AppxBlockTable FileId="faCffsc/OlpbmSf/ZuuW9Py/djs=" BlockSize="32768" DigestAlgorithm="SHA256">
+    <Block Hash="VHXC4lqDX3Gw6J/7vwSnY25XNmnl2Ccz/YIUB9dhxnE=" />
+    <Block Hash="EztYlejQN5uWvDSyCnBbMK/oKZQkeQQoWkME8buQs5c=" />
+    <Block Hash="NrOoNuiQAElrusTltL9JfkgkqdeXNwhxSfL616nXLBM=" />
+............
+    <Block Hash="xaCFoRbJZC3KYf5y9E/gPL1/MSgG5IvoXK0UqoQL3bs=" />
+    <Block BlockSize="30222" Hash="SZQlk08sicUU4B66HzsBr8oH6giJ0I4JOu5rmdJbDaA=" />
+  </AppxBlockTable>
+</BlockTables>
+
+-----------
+
+http://aq.v4.a.dl.ws.microsoft.com/dl/content/a/6/updt/2012/10/c975eaf8-2a5d-4c50-bd3f-ff312b2cc7d8_7da09f7ec73f3a5a5b9927ff66eb96f4fcbf763b.appx?P1=1351960690&P2=1&P3=1&P4=87n28wiw73MAA%2bRvk8YuQ12d0ro%3d
+

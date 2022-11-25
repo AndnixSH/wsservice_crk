@@ -1,0 +1,32 @@
+***
+Here WSService store license tokens :
+C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WSLicense\tokens.dat
+if you delete this file WSService recreate it empty with no licenses.
+You can also backup and restore this file.
+
+***
+Force WSService to revalidate licenses :
+ rundll32.exe WSClient.dll,WSpTLR licensing
+If WSService find bogus signature on an app it disables app.
+To reenable it run WSServiceCrk and run revalidation manually.
+It will see licenses are valid and reenable apps.
+It is highly recommended to always have WSServiceCrk running.
+
+***
+Windows have some scheduled tasks about WS.
+Run taskschd.msc and see yourself in \Microsoft\Windows\WS.
+How to disable them :
+schtasks /change /disable /TN "\Microsoft\Windows\WS\License Validation"
+schtasks /change /disable /TN "\Microsoft\Windows\WS\WSRefreshBannedAppsListTask"
+
+***
+If you modify some files inside appcontainer app may become invalid.
+To reenable it without reinstalling restore original files and look at
+ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList
+You will see subkey with <PackageName> and PackageStatus=2.
+Delete subkey <PackageName>. This will restore ability to run the app.
+
+***
+You can monitor acitivity of WSServiceCrk by running DebugView from sysinternals.
+To see what WSServiceCrk does check menu item : Capture -> Capture global WIN32.
+You will see when and what is validated by WSService.

@@ -1,0 +1,21 @@
+How to start :
+
+1) Install wscrack_32 or wscrack_64 depending on your windows version - x86 or x64.
+2) Install trial app from store
+3) Run wscrack_anycpu\TokensExtractor.exe
+4) Find your product and click "CrackIt"
+5) App should become full licensed.
+   Run app and see if it is unlocked.
+
+My trial has expired. What to do ?
+I suggested above only as simple start. Any unskilled user can do it.
+If you think you have some skill it would be wise for you to make redistributables for all apps you like
+so you can install them anytime later without the need of windows store or even internet connection.
+See "redistribution" folder for details.
+After trial period MS will not allow you download apps again.
+But my trial has already expired ! What to do ? Read info/MachineID.txt. 
+It requires some skill but it is possible to reset all trials.
+As another solution I would suggest installing win8 VM with clean LiveID and getting appx from there.
+
+IMPORTANT : Do not download/update through winstore client any apps you have bogus license for
+before you read info/StoreWUAuth.txt carefully.

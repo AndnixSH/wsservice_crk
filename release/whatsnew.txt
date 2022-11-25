@@ -1,0 +1,104 @@
+v1.0.0
+
+First release
+
+v1.0.1
+
+[install procedure]
+ Added restart of all services in the group "LocalServiceAndNoImpersonation".
+ It is required to restart svchost.exe because svchost read service list from the registry only once
+  at the start of the first service in the group.
+ Without this measure installer gives error on clean systems.
+
+v1.1.0
+ Digital signature checking bypass in WSServiceCrk.
+ Added WinStoreInterceptor - first release.
+
+v1.1.1
+ Some dangerous bugs in api hooking - could lead to crash.
+ Change to wsservice.dll appearance checking algorithm.
+ Installer automatically disables some critical scheduled tasks :
+  schtasks /change /disable /TN "\Microsoft\Windows\WS\License Validation"
+  schtasks /change /disable /TN "\Microsoft\Windows\WS\WSRefreshBannedAppsListTask"
+
+v1.2.0
+ Apps loading process reimagined. WinStoreInterceptor removed as obsolete.
+ Added wsll - Windows Store License Loader.
+ Added xmlsign - a tool for bogus-signing licenses.
+ WSServiceCrk unattended installation options : "inst","uninst".
+
+1.2.1
+ Installer rewritten without MFC. EXE size reduced from 4 Mb to 200 kb.
+ Installer now checks version of installed wsservice_crk.dll.
+  Installation of older versions is blocked.
+ Added license uninstallation to wsll.
+ New tool for analyzing tokens.dat - TokenExtractor.
+
+1.2.2
+ TokenExtractor can now avoid crap in tokens.dat - it will not fall with error.
+  Crap is actually remnants of uninstalled licenses - WSService does not zero file area occupied by license xml.
+ TokenExtractor can now save original licenses. You can backup them, reinstall windows, deploy appx and wsll license.
+  No WSServiceCrk is required since license has valid microsoft signature.
+
+1.2.3
+ In some cases BCryptVerifySignature returns STATUS_INVALID_PARAMETER. I dont know why - may be something about crypto math.
+  WSServiceCrk now also converts STATUS_INVALID_PARAMETER to STATUS_SUCCESS.
+ Added easy to use function in TokenExtractor "CrackIt".
+ TokenExtractor now shows license type in the list.
+ WSServiceCrk 32 bit installer now refuses to run on x64 systems.
+
+1.2.4
+ Updated docs for downloading of appx from windows store. Fiddler is not needed anymore.
+ Appx URL grabbing and appx downloading added to TokenExtractor.
+ TokenExtractor can now install license from a file.
+
+1.2.5
+ Wsll and TokenExtractor(CrackIt) now try installing test license first in
+  order not to screw existing license if something is not working (for example
+  WSServiceCrk is not running or not functional).
+ Added license uninstallation to TokenExtractor.
+ Added "Refresh" button to TokenExtractor.
+ Added noob's readme.
+
+1.2.6
+ WSServiceCrk : secure modification of import pointers.
+ Added ProductPolicyEditor. It can be used to enable sideloading on any
+  edition of Windows 8,
+
+1.2.7
+ Updated winjs.appx dependency.
+ Updated ProductPolicyEditor to 1.0.3 (some serious bugs were there).
+ Token extractor : added cleanup of winstore error 0x8024600e. Added problem description : info/StoreWUAuth.txt.
+
+1.2.8
+ TokenExtractor : license list retrieval now uses WSClient API and shows really installed licenses as seen by WSService.
+  Tokens.dat bruteforce option left as button.
+ wsll : added "-l" option (Show license list).
+
+1.2.9
+ TokenExtractor : fixed minor error in license parsing. Some licenses are 
+  stored with unknown binary prefix. It must be skipped.
+
+1.3.0
+ TokenExtractor & wsll : added UTF-8 conversion of licenses XMLs coming from
+  WS client API.
+ wsll : new options : -u (uninstall license), -n (do not perform bogus license test).
+
+1.4.0
+ Breaking WARBIRD code made it possible to enable sideloading on any edition of windows without disabling sppsvc and using ProductPolicyEditor.
+
+1.4.1
+ Some code refactorings :
+  Warbird error handling rewritten with exceptions. Tons of ifs gone. Code is easily readable.
+  Hooking/unhooking API in wsservice_crk uses defines. Repeating code fragments gone.
+ Verbose DbgLogging : hexdumping of NtSetSystemInformation(134) and stringdumping of BCryptHashData.
+ Added warbird query format description and sample captures.
+
+1.4.2
+ Further wsservice code optimization.
+ Fixed importang bug in warbird code. Bug could result in invalid encryption/decryption.
+ Warbird code : added support for comfortable artificial calling of NtSetSystemInformation(134).
+ More precise info about warbird PolicyValueQuery chunk format.
+ Fixed anchoring of some buttons in TokenExtractor.
+ TokenExtractor : added text search capability.
+

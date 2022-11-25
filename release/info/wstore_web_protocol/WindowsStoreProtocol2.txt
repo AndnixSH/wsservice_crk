@@ -1,0 +1,249 @@
+https://lic.apps.microsoft.com
+
+*** Purchase
+
+GET /Commerce/Purchase/6.2.9200-1/615/p/b340039d-9924-49ce-88c8-80d4d69a266f/t/2/channel/10005001/locale/en-US/market/RU/al/en-US HTTP/1.1
+
+*** Response
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>45.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>ð.</CurrencySymbol>
+    <TransactionId>66d3d721-d89d-4337-a089-f2177d9bcd54</TransactionId>
+    <ServiceTicket>EwBgApVABAAUqPq18hpYHZBQFiQjg6Ywv8m8HEQAAU4RAlJnHh//MLDPcZzP/NvdF/aezjcZCHvRJy5FPzIFX0qeBDxM16ZtIMUa7BWidGzOtEeEbvD2P0BhWPgVmB1cgSoZ813OnhniHfN5jTy3iAa2BBxTmksAeBWfoF3UsPBNMl05rvV4R1VLfFqt5LgI6kfg8vidLMl7Dn2BDhFeHKGeUHj50C+WCjv2cdL5y2szGJ1qBtUhOioEpyJ9HWPyyLu258QJShY9t418RCUpGxYrt/RXSymsFNbb/ZJO0mXvPQWa1xAMk7JOXakKRswQyDUR6E5xhbEztUt+qt4sMmp1QDLZaHlwTCMqhiAzOzdYHDGMRUmvAIUwWOXsgyQDZgAACOY5p7h9BPu3MAGvrWenColNglOKJFOpqTffUVkXZleHLe+vIEi3vGCWR5lAJfpP+wqfuDXZ0FVzOVyXlkmr4WbiQzGuXRAcB2s33qsQQR7tgkLan8rR/y1UAmK/aNu/444qvsYuT8oumsf9/raNDNyBNlR93x//tyJnsmdX3WKaU5ZtJr+qkMbPo4Ev7TLOFn3fT3g0P9DF27Pr/yJcSpuDHrBij1TCMP8gy4FoWABOuTek91jQxTWqZlP378dLRl0XCfP5Y0WF7WN8BWrcJs2Q2fbNVvTeUGluqeffyb79AwNqR9IIPdI2Vwp3iUvR0pvksJIKdY0lwaQEJ+ndVeD40HFuCvqb+9bESWzzHVQs5ga7tKPkAKCWR3NK4iDHdQgqbCleAuz+Rpw+6cqYB8LuoWSmKfhpv59RXAE=&amp;p=</ServiceTicket>
+    <ReleaseGuid>8adec589-005b-4834-b222-e714458ee730</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>b340039d-9924-49ce-88c8-80d4d69a266f</I>
+        <R>8adec589-005b-4834-b222-e714458ee730</R>
+        <B>8adec589-005b-4834-b222-e714458ee730</B>
+        <Pfn>2859fincooper.MagnificentCheckers_26jw83kfsfqtc</Pfn>
+        <T>Magnificent Checkers</T>
+        <Wr>3</Wr>
+        <Ico>8adec589-005b-4834-b222-e714458ee730/Icon.21215.png</Ico>
+        <Bg>#000000</Bg>
+        <Fg>light</Fg>
+        <R0 />
+        <C>
+          <I>3</I>
+          <N>Games</N>
+        </C>
+        <Sc>
+          <I>44</I>
+          <N>Strategy</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>true</Try>
+        <Tryd>1</Tryd>
+        <Lud>2012-10-31T07:12:36.42-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Tammi</N>
+            <Bg>#000000</Bg>
+            <Fg>light</Fg>
+            <Mai>App</Mai>
+            <Logo>8adec589-005b-4834-b222-e714458ee730/AppTile.2.21215.24614.png</Logo>
+            <Img>
+              <T>1</T>
+              <U>8adec589-005b-4834-b222-e714458ee730/AppTile.1.21215.24614.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>8adec589-005b-4834-b222-e714458ee730/AppTile.1.21215.24614.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+  </Result>
+  <TransactionId>66d3d721-d89d-4337-a089-f2177d9bcd54</TransactionId>
+</PurchaseResponse>
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+*** Getting license
+
+POST /Commerce/Purchase/6.2.9200-1/615/p/b340039d-9924-49ce-88c8-80d4d69a266f/t/2/channel/10005001/locale/en-US/market/RU/al/en-US HTTP/1.1
+
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmBody>
+  <TransactionId>66d3d721-d89d-4337-a089-f2177d9bcd54</TransactionId>
+  <Price>45.00</Price>
+  <DigitalMarker>
+    <GenuineTicketError>0x80070422</GenuineTicketError>
+  </DigitalMarker>
+  <MachineId></MachineId>
+  <challenge>
+    <ClientInformation>
+      <Version>1.0</Version>
+      <ClientVersion>1.0.0.0</ClientVersion>
+      <HardwareID>LgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA==</HardwareID>
+      <SystemName>WIN-10RC2KGP7FU</SystemName>
+      <SystemManufacturer>VMware, Inc.</SystemManufacturer>
+      <SystemProductName>VMware Virtual Platform</SystemProductName>
+      <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+      <N>4124325663</N>
+      <SKU>7</SKU>
+    </ClientInformation>
+    <ProductID>{B340039D-9924-49CE-88C8-80D4D69A266F}</ProductID>
+  </challenge>
+  <SCM>
+    <![CDATA[]]>
+  </SCM>
+    <SendReceipt>false</SendReceipt>
+  </ConfirmBody>
+
+
+*** Response :
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>45.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>ð.</CurrencySymbol>
+    <TransactionId>66d3d721-d89d-4337-a089-f2177d9bcd54</TransactionId>
+    <ReleaseGuid>8adec589-005b-4834-b222-e714458ee730</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>b340039d-9924-49ce-88c8-80d4d69a266f</I>
+        <R>8adec589-005b-4834-b222-e714458ee730</R>
+        <B>8adec589-005b-4834-b222-e714458ee730</B>
+        <Pfn>2859fincooper.MagnificentCheckers_26jw83kfsfqtc</Pfn>
+        <T>Magnificent Checkers</T>
+        <Wr>3</Wr>
+        <Ico>8adec589-005b-4834-b222-e714458ee730/Icon.21215.png</Ico>
+        <Bg>#000000</Bg>
+        <Fg>light</Fg>
+        <R0 />
+        <C>
+          <I>3</I>
+          <N>Games</N>
+        </C>
+        <Sc>
+          <I>44</I>
+          <N>Strategy</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>true</Try>
+        <Tryd>1</Tryd>
+        <Lud>2012-10-31T07:12:36.42-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Tammi</N>
+            <Bg>#000000</Bg>
+            <Fg>light</Fg>
+            <Mai>App</Mai>
+            <Logo>8adec589-005b-4834-b222-e714458ee730/AppTile.2.21215.24614.png</Logo>
+            <Img>
+              <T>1</T>
+              <U>8adec589-005b-4834-b222-e714458ee730/AppTile.1.21215.24614.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>8adec589-005b-4834-b222-e714458ee730/AppTile.1.21215.24614.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+    <LicensingResponse>
+      <LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0">
+        <ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSI0MTI0MzI1NjYzIj48TWFjaGluZUlEPmExNDkyY2NkLTYzOWYtNDJiNS1hM2I5LTBhMmY1NGU0YWJkYTwvTWFjaGluZUlEPjxDdXJyZW50VGltZT4yMDEyLTEwLTMxVDE3OjIzOjUyWjwvQ3VycmVudFRpbWU+PC9JbmZvPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIiAvPjxTaWduYXR1cmVNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiAvPjxSZWZlcmVuY2UgVVJJPSIiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIgLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIgLz48RGlnZXN0VmFsdWU+TTlUb3NVNVZqWXV3K29KMmVad1hsMEpVcHRrZGhjNUUyd2lQN0d5RzN1dz08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+V2tFS29NQTZaUTFqMm9OQXlyVUhBcm1MRFkzQzZhL05vSzl3bWsyK0k5cG1hejlzRHRLQTNnd2xrZ0UwdFlneDd1ejhMUWI5UnBrTkhEWUZQb1dCU29TckdhdUNjNHloTzMzNTNiUkIreFd1VzR5QUxDbkQ2VExsdEl1aklhY1Q2VHlyNjdWY1l4eHpVYmFjTDM2dDB4OGpodWdlRHEreFN4eWx6c05iQWZSSzNIOHFaZTdlVEVqOHhGa2ZwbEZvS0MyWHlUbGREVnB2RlNvQ2ZwREozandadDRqeHhzSHV2T254dm5WbGZxNUd3T29kZGlRNzFxdW5zZTdCVW1DOHJ2MmJ0QVVvemljSExsTmZNeTNRSHRSNmJDZzV6Ti9NMkIrN1NYUDZCeU9aazhrY2tLelNnbUN2ZW9wbGYvdHZ2MXNHd2VadENwelBnSEF5ZXM5djhnPT08L1NpZ25hdHVyZVZhbHVlPjwvU2lnbmF0dXJlPjwvU2VydmVyPg==</ServerInfoResponse>
+        <UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1">
+          <License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD5iMzQwMDM5ZC05OTI0LTQ5Y2UtODhjOC04MGQ0ZDY5YTI2NmY8L1Byb2R1Y3RJRD48UEZNPjI4NTlmaW5jb29wZXIuTWFnbmlmaWNlbnRDaGVja2Vyc18yNmp3ODNrZnNmcXRjPC9QRk0+PEhhcmR3YXJlSUQ+WEFBQUFCTUFMZ0FBQUFFQUFnQUJBQUVBQVFBQkFBQUFBUUFCQUFFQWxpditsYVFSREZ6bXQySUYvQlRuSVdPcElUQUFIQTBBQWdBQkFRQUNCUUFEQVFBRUFnQUZBQUFHQVFBSEFBQUlCd0FKQXdBS0FRQUxBQUFNQndBPTwvSGFyZHdhcmVJRD48TWFjaGluZUlEPmExNDkyY2NkLTYzOWYtNDJiNS1hM2I5LTBhMmY1NGU0YWJkYTwvTWFjaGluZUlEPjxVc2VySUQ+N2ZmNDMxODFjODJmMjZlYTwvVXNlcklEPjwvQmluZGluZz48TGljZW5zZUluZm8gVHlwZT0iVHJpYWwiPjxJc3N1ZWREYXRlPjIwMTItMTAtMzFUMTc6MjM6NTJaPC9Jc3N1ZWREYXRlPjxMYXN0VXBkYXRlRGF0ZT4yMDEyLTEwLTMxVDE3OjIzOjUyWjwvTGFzdFVwZGF0ZURhdGU+PEV4cGlyYXRpb25EYXRlPjIwMTItMTEtMDFUMTc6MjM6NTJaPC9FeHBpcmF0aW9uRGF0ZT48L0xpY2Vuc2VJbmZvPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIiAvPjxTaWduYXR1cmVNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiAvPjxSZWZlcmVuY2UgVVJJPSIiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIgLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIgLz48RGlnZXN0VmFsdWU+ZEVxN01sUjU5K2ZtL3VaV3JVMml5K1oxVUg3elJONk1zMVNZa1ZvZFA2MD08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+TVYzeTNudmFXS09hKzZES283N2FxallMTFVBM0ZJbldzcnlXZDRBWG00VW9ocUJtY3M0YVJkZldNczJlM2J0NkN3Z01ZVUZqT2JzQy8wTHpGbmtOS0NtUnM1blh4aDJ4bjZSclgzaVkxRmZFT1VxQ1kra1hucWlweWxjT3lRVHJrd0c1R2lzUHh6aTlXVE5VbDZPUWhHU2VQMDBpeUFLUWFiOWM0OXZIMTBBMjFLSnhvWXFKRGlvOUV2bmJtdGgrOEo0SGJqblhKR0gwM1J0WlJzYWVROTlkaEIxZEpaNDcyRklyUThSUldTNC95Tk9BdGUyUHp0NFZoV2ptYnZhZzkvQThseFVKaXZZRjdkeUFtYm1aOXRveEZweTNSeXFvQ2hFOXNISFFOQjZlcG82ait1a0JkN29KeVYwcGhwQVBaZDRCMndOa0RhVG1SREZKMGgyUGl3PT08L1NpZ25hdHVyZVZhbHVlPjwvU2lnbmF0dXJlPjwvTGljZW5zZT4=</License>
+        </UpdatedLicense>
+      </LicenseResponse>
+    </LicensingResponse>
+  </Result>
+  <TransactionId>66d3d721-d89d-4337-a089-f2177d9bcd54</TransactionId>
+</PurchaseResponse>
+
+
+
+
+*** ServerInfoResponse (base64) :
+
+
+<Server>
+  <Info N="4124325663">
+    <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+    <CurrentTime>2012-10-31T17:23:52Z</CurrentTime>
+  </Info>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>M9TosU5VjYuw+oJ2eZwXl0JUptkdhc5E2wiP7GyG3uw=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>WkEKoMA6ZQ1j2oNAyrUHArmLDY3C6a/NoK9wmk2+I9pmaz9sDtKA3gwlkgE0tYgx7uz8LQb9RpkNHDYFPoWBSoSrGauCc4yhO3353bRB+xWuW4yALCnD6TLltIujIacT6Tyr67VcYxxzUbacL36t0x8jhugeDq+xSxylzsNbAfRK3H8qZe7eTEj8xFkfplFoKC2XyTldDVpvFSoCfpDJ3jwZt4jxxsHuvOnxvnVlfq5GwOoddiQ71qunse7BUmC8rv2btAUozicHLlNfMy3QHtR6bCg5zN/M2B+7SXP6ByOZk8kckKzSgmCveoplf/tvv1sGweZtCpzPgHAyes9v8g==</SignatureValue>
+  </Signature>
+</Server>
+
+
+*** License (base64) :
+
+
+<License Version="1" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>b340039d-9924-49ce-88c8-80d4d69a266f</ProductID>
+    <PFM>2859fincooper.MagnificentCheckers_26jw83kfsfqtc</PFM>
+    <HardwareID>XAAAABMALgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+    <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+    <UserID>7ff43181c82f26ea</UserID>
+  </Binding>
+  <LicenseInfo Type="Trial">
+    <IssuedDate>2012-10-31T17:23:52Z</IssuedDate>
+    <LastUpdateDate>2012-10-31T17:23:52Z</LastUpdateDate>
+    <ExpirationDate>2012-11-01T17:23:52Z</ExpirationDate>
+  </LicenseInfo>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>dEq7MlR59+fm/uZWrU2iy+Z1UH7zRN6Ms1SYkVodP60=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>MV3y3nvaWKOa+6DKo77aqjYLLUA3FInWsryWd4AXm4UohqBmcs4aRdfWMs2e3bt6CwgMYUFjObsC/0LzFnkNKCmRs5nXxh2xn6RrX3iY1FfEOUqCY+kXnqipylcOyQTrkwG5GisPxzi9WTNUl6OQhGSeP00iyAKQab9c49vH10A21KJxoYqJDio9Evnbmth+8J4HbjnXJGH03RtZRsaeQ99dhB1dJZ472FIrQ8RRWS4/yNOAte2Pzt4VhWjmbvag9/A8lxUJivYF7dyAmbmZ9toxFpy3RyqoChE9sHHQNB6epo6j+ukBd7oJyV0phpAPZd4B2wNkDaTmRDFJ0h2Piw==</SignatureValue>
+  </Signature>
+</License>

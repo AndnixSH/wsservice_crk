@@ -1,0 +1,4 @@
+rem Edit appmanifest.xml and set  publisher as 'CN=My SPC'
+rem (publisher in app manifest must match publisher of cert)
+rem Signing files on network drive can result in error 0x80070001
+SignTool sign /v /fd SHA256 /f MySPC.pfx filepath.appx

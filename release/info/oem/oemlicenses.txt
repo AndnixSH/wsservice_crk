@@ -1,0 +1,27 @@
+These licenses are preinstalled with windows
+
+
+<License Version="1" Source="OEM" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>16db93bf-8748-449a-96ba-e9ed3a5f872d</ProductID>
+    <PFM>Microsoft.ZuneMusic_8wekyb3d8bbwe</PFM>
+  </Binding>
+  <LicenseInfo Type="Full">
+    <IssuedDate>2012-07-14T01:24:20Z</IssuedDate>
+    <LastUpdateDate>2012-07-14T01:24:20Z</LastUpdateDate>
+  </LicenseInfo>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>k0AMrpVRlNvSYxWOnm6kXj7OWQlYXZbsBFwubDMLUNg=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>QQ0SoCDvaxtYcr7hX7bdHohbi+UHOhuCUv9xCGBozCV9akJtz1ioM4AECxR6f6GV+pxLojX9wm6A7g32HBThOSRzO155l1CXxvYnEf3SX0GGaHMDYq1pfrarFKMbGAr54TREtM8gM77L45HiBd2qy922HcnzdZDd8aBAMJeMoTjABXXtggTWtAlZbcGbxWWGwxhpoqNTb6D9GZaestEM/zDWBxZUilwT6Mr0JBFUw4+qf33zfzgoyGKeE1cwEgz1Gvsyp9GnTJmd4yf5YRQeCY0p31OSawCUqGde/qWjrkCr8oP5EAnUKE6s9NbL3YVODD3ldGLXIXAPUrbyuZ+lDg==</SignatureValue>
+  </Signature>
+</License>

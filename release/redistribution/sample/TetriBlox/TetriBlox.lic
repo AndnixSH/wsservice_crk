@@ -1,0 +1,10 @@
+<License Version="1" Source="OEM" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>2ca30463-f994-4070-a87b-c1116dce10a8</ProductID>
+    <PFM>26720RandomSaladGamesLLC.Tetriblox_kx24dqmazqk8j</PFM>
+  </Binding>
+  <LicenseInfo Type="Full">
+    <IssuedDate>2022-11-01T14:25:14Z</IssuedDate>
+    <LastUpdateDate>2022-11-01T14:25:14Z</LastUpdateDate>
+  </LicenseInfo>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>CqUjWeeYLjcsegABYWoG9s+fE8NeUvKopjO8YusQPOo=</DigestValue></Reference></SignedInfo><SignatureValue>jALlm3A1Jys5fsXcZhRg/1MOGzTDWWO5fCITk0qZL+u67WMBsAll5pPHKbjqiBvKJHLyLSI15EX9YIU3S2dXqGNRrvMKI+RFSGIYHTUIuJo9qUAH7m3ujRhEfOR2oz3hIpzfADu2unu+x75fJ2svMPCYrjLGFtMyRuJWzYHGfhWN44zRUw1lA8h4W0zU1jKNO/yEBJUD2PuLr22dc/4jlOLMQsGb2srpCQtxNg11xqolXWYhavQ97Zlmq9508N0xI0SfM4/JFJ92q+swimGk/p5ky1VPDsbzKv888IN0DAoa+4V+veUgc+cwGEIlimKP3JDYVze7ZXzCcdcPkxSXTA==</SignatureValue></Signature></License>

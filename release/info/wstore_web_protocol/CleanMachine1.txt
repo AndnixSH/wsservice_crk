@@ -1,0 +1,1142 @@
+We have clean machine and new LiveID here. We launch appstore and get free app "Fresh paint"
+
+
+https://services.apps.microsoft.com/browse/6.2.9200-1/16384/615/Discovery
+
+
+<Dsr>
+  <S i="Authentication">
+    <U>services.apps.microsoft.com</U>
+  </S>
+  <S i="browse">
+    <U>https://services.apps.microsoft.com/</U>
+    <As>
+      <A i="Channel">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/Channel<Boi>86400</Boi>
+      <Mr>5</Mr>
+    </A>
+    <A i="ChannelByScm">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/Channel/{SCM}<Boi>86400</Boi>
+    <Mr>5</Mr>
+  </A>
+  <A i="Namespace">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{installedLocales}/c/{country}/Namespace/pc/{pcSystem}/{pcLevel}<Boi>1800</Boi>
+  <Mr>5</Mr>
+</A>
+<A i="NamespaceBeta">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{installedLocales}/c/{country}/Namespace/pc/{pcSystem}/{pcLevel}<Boi>1800</Boi>
+<Mr>5</Mr>
+</A>
+<A i="HomePageData">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/HomePageData/pt/{processorTypeFilter}/lf/{languageFilter}<Boi>3600</Boi>
+<Mr>5</Mr>
+</A>
+<A i="Featured">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/c/{country}/Featured/{listId}<Boi>3600</Boi>
+<Mr>5</Mr>
+</A>
+<A i="Topic">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/Topic/{topicId}<Boi>3600</Boi>
+<Mr>5</Mr>
+</A>
+<A i="ProductTileByProductGuid">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/tile</A>
+<A i="ProductTileByProductGuidReleaseId">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/ri/{releaseId}/tile</A>
+<A i="ProductTileByPfn">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/pfn/{packageFamilyName}/tile</A>
+<A i="ProductBrowseList">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/AppTileList/cid/{categoryId}/pf/{priceFilter}/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}/s/{sortBy}/{sortOrder}/pn/{pageNumber}</A>
+<A i="MyApps">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/p/{page}<Mc>100</Mc>
+</A>
+<A i="ProductTileExtendedByProductGuid">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}</A>
+<A i="ProductTileExtendedByProductGuidReleaseId">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/ri/{releaseId}</A>
+<A i="ProductTileExtendedByPfn">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/c/{country}/cp/{channelPartner}/Apps/pfn/{packageFamilyName}</A>
+<A i="InAppOffers">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/c/{country}/Apps/{appId}/iaos</A>
+<A i="NonPersonalRecommendations">browse/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/NonPersonalizedRecs/lt/{listType}/cid/{categoryId}/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}</A>
+</As>
+<Boi>1800</Boi>
+<Mr>5</Mr>
+</S>
+<S i="Search">
+  <U>https://services.apps.microsoft.com/</U>
+  <As>
+    <A i="TypeAhead">searchsuggest/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/m/{market}/pt/{processorTypeFilter}/suggest?phrase={phrase}</A>
+    <A i="Search">search/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/il/{inputLocale}/cp/{channelPartner}/query/cid/{categoryId}/pf/{priceFilter}/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}/s/{sortBy}/{sortOrder}/pn/{pageNumber}?phrase={phrase}</A>
+    <A i="SearchXml">search/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/queryxml</A>
+    <A i="FileAssociation">search/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/il/{inputLocale}/cp/{channelPartner}/FileAssociation/cid/{categoryId}/pf/{priceFilter}/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}/s/{sortBy}/{sortOrder}/pn/{pageNumber}?phrase={phrase}</A>
+    <A i="ProtocolHandler">search/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/il/{inputLocale}/cp/{channelPartner}/ProtocolHandler/cid/{categoryId}/pf/{priceFilter}/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}/s/{sortBy}/{sortOrder}/pn/{pageNumber}?phrase={phrase}</A>
+  </As>
+</S>
+<S i="4R">
+  <U>https://services.apps.microsoft.com/</U>
+  <As>
+    <A i="ReviewList">4R/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/m/{market}/Apps/{appId}/Reviews/{ratingFilter}/s/{sortBy}/{sortOrder}/pn/{pageNumber}</A>
+  </As>
+</S>
+<S i="4RLimited">
+  <U>https://services.apps.microsoft.com/</U>
+  <P>MBI</P>
+  <As>
+    <A i="SubmitReview">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/m/{market}/Apps/{appId}/Reviews</A>
+    <A i="SubmitAppProblem">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/cid/{categoryId}/Problem</A>
+    <A i="SubmitAppProblemScm">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/cid/{categoryId}/Problem/{SCM}</A>
+    <A i="SubmitReviewProblem">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/Reviews/{reviewId}/cid/{categoryId}/Problem</A>
+    <A i="SubmitReviewProblemScm">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/c/{country}/cp/{channelPartner}/Apps/{appId}/Reviews/{reviewId}/cid/{categoryId}/Problem/{SCM}</A>
+    <A i="PersonalRecommendations">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{chromeLocale}_{localeList}/m/{market}/c/{country}/PersonalizedRecs/pc/{parentalControlFilter}/pt/{processorTypeFilter}/af/{accessibilityFilter}/lf/{languageFilter}</A>
+    <A i="SubmitHelpfulness">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/m/{market}/Apps/{appId}/Reviews/{ReviewId}/Helpful</A>
+    <A i="GetReview">4RLimited/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{localeList}/m/{market}/Apps/{appId}/reviews/user</A>
+  </As>
+</S>
+<S i="Commerce">
+  <U>https://lic.apps.microsoft.com/</U>
+  <P>MBI</P>
+  <As>
+    <A i="CreatePCSUrl">Commerce/PCS/{osVersion}.{osBuild}-{appModel}/{clientVersion}/locale/{locale}/market/{country}?PIID={PIID}</A>
+    <A i="AddPaymentAccount">Commerce/PaymentAccount/{osVersion}.{osBuild}-{appModel}/{clientVersion}/locale/{locale}/market/{country}?CTPAccountId={CTPAccountId}&amp;defaultPIID={PIID}</A>
+    <A i="GetAllPI">Commerce/PI/{osVersion}.{osBuild}-{appModel}/{clientVersion}/locale/{locale}/market/{country}</A>
+    <A i="GetDefaultPI">Commerce/DefaultPI/{osVersion}.{osBuild}-{appModel}/{clientVersion}/locale/{locale}/market/{country}</A>
+    <A i="SetDefaultPI">Commerce/DefaultPI/{osVersion}.{osBuild}-{appModel}/{clientVersion}/locale/{locale}/market/{country}?piid={PIID}</A>
+    <A i="PurchaseApp">Commerce/Purchase/{osVersion}.{osBuild}-{appModel}/{clientVersion}/p/{ProductID}/t/{purchaseType}/channel/{channelPartner}/locale/{locale}/market/{country}/al/{appLanguage}</A>
+    <A i="PurchaseInApp">Commerce/Purchase/{osVersion}.{osBuild}-{appModel}/{clientVersion}/p/{ProductID}/io/{InAppOfferId}/channel/{channelPartner}/locale/{locale}/market/{country}/al/{appLanguage}</A>
+    <A i="ResumePurchase">Commerce/ResumePurchase/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{transactionID}/challenge/{challengeResponse}</A>
+  </As>
+</S>
+<S i="Identity">
+  <U>https://services.apps.microsoft.com/</U>
+  <P>MBI</P>
+  <As>
+    <A i="GetConsumer">Identity/Consumer</A>
+    <A i="UpdateConsumer">Identity/Consumer</A>
+  </As>
+</S>
+<S i="BannedApps">
+  <U>http://lic-cdn.apps.microsoft.com/</U>
+  <As>
+    <A i="GetBannedApps">ApplicationRevocation/RevokedApps</A>
+  </As>
+</S>
+<S i="Images">
+  <U>http://wscont{hostIndex}.apps.microsoft.com/winstore/</U>
+  <Mhi>2</Mhi>
+</S>
+<S i="Licensing">
+  <U>https://lic.apps.microsoft.com/Licensing/</U>
+  <P>MBI</P>
+  <As>
+    <A i="AcquireLicense">License/AcquireLicense/{osVersion}.{osBuild}-{appModel}/{clientVersion}</A>
+    <A i="SyncLicenses">License/SyncLicenses/{osVersion}.{osBuild}-{appModel}/{clientVersion}</A>
+    <A i="AcquireReceipt">License/AcquireReceipt/{osVersion}.{osBuild}-{appModel}/{clientVersion}?productID=[productID]&amp;featureName=[featureName]&amp;receiptType=[receiptType]&amp;machineID=[machineID]</A>
+    <A i="GetDeviceList">UserPortal/GetDeviceList/{osVersion}.{osBuild}-{appModel}/{clientVersion}</A>
+    <A i="GetApplicationList">UserPortal/GetApplicationList/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{machineId}?PageNum=[pageNumber]</A>
+    <A i="RemoveDevice">UserPortal/RemoveDevice/{osVersion}.{osBuild}-{appModel}/{clientVersion}/{machineId}</A>
+    <A i="ProvisionApplicationLicense">Partners/ProvisionApplicationLicense/{osVersion}.{osBuild}-{appModel}/{clientVersion}?productID={productID}&amp;licenseType={licenseType}</A>
+    <A i="ProvisionInAppLicense">Partners/ProvisionInAppLicense/{osVersion}.{osBuild}-{appModel}/{clientVersion}?productID={productID}&amp;inAppFeatureName={featureName}</A>
+    <A i="ResetLicense">Partners/ResetLicense/{osVersion}.{osBuild}-{appModel}/{clientVersion}?productID={productID}</A>
+  </As>
+</S>
+<S i="DevLicensing">
+  <U>https://lic.apps.microsoft.com/devLicensing/</U>
+  <P>MBI</P>
+  <As>
+    <A i="AcquireDeveloperLicense">AcquireDeveloperLicense/{osVersion}.{osBuild}-{appModel}/{clientVersion}</A>
+  </As>
+</S>
+<S i="Pages">
+  <U>https://wscont.apps.microsoft.com/winstore/</U>
+</S>
+<S i="BI">
+  <U>c.microsoft.com</U>
+</S>
+<S i="WebPdp">
+  <U>http://apps.microsoft.com/webpdp/app</U>
+</S>
+<Boi>1800</Boi>
+<Mr>5</Mr>
+</Dsr>
+
+
+
+------------------------------------------------------
+
+https://services.apps.microsoft.com/browse/6.2.9200-1/615/Channel
+
+POST /browse/6.2.9200-1/615/Channel HTTP/1.1
+Connection: Keep-Alive
+Accept: text/xml
+User-Agent: Windows Store/1.0
+Content-Length: 51
+Host: services.apps.microsoft.com
+
+<GenuineTicketError>0xC004F200</GenuineTicketError>
+
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=2592000
+Content-Type: application/xml; charset=utf-8
+Expires: Tue, 04 Dec 2012 15:16:49 GMT
+Last-Modified: Sun, 04 Nov 2012 15:16:49 GMT
+Server: Microsoft-IIS/7.5
+X-AspNetMvc-Version: 3.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 04 Nov 2012 15:16:48 GMT
+Content-Length: 28
+
+<Cr><CId>10005001</CId></Cr>
+
+
+------------------------------------------------------
+
+https://services.apps.microsoft.com/browse/6.2.9200-1/615/en-us/c/RU/Namespace/pc/00000000-0000-0000-0000-000000000000/00000000-0000-0000-0000-000000000000
+
+GET /browse/6.2.9200-1/615/en-us/c/RU/Namespace/pc/00000000-0000-0000-0000-000000000000/00000000-0000-0000-0000-000000000000 HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+User-Agent: Windows Store/1.0
+Host: services.apps.microsoft.com
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=2592000
+Content-Type: application/xml; charset=utf-8
+Expires: Tue, 04 Dec 2012 15:16:49 GMT
+Last-Modified: Sun, 04 Nov 2012 02:51:01 GMT
+Server: Microsoft-IIS/7.5
+X-AspNetMvc-Version: 3.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 04 Nov 2012 15:16:49 GMT
+Content-Length: 5542
+
+
+<Br>
+  <Mr>RU</Mr>
+  <Cl>en-US</Cl>
+  <Crs>5</Crs>
+  <Crr>0</Crr>
+  <Fo>0</Fo>
+  <Ps>80</Ps>
+  <Nr>
+    <pages>
+      <page>
+        <type>PageDir</type>
+        <href>6.2/615/WW/en-us/0/70/</href>
+      </page>
+    </pages>
+    <root>
+      <i>idRoot</i>
+      <section>
+        <i>idCategories</i>
+        <fs>
+          <f>
+            <i>idPrice</i>
+            <pn>priceFilter</pn>
+            <d>1</d>
+            <os>
+              <o>
+                <i>1</i>
+                <n>All prices</n>
+              </o>
+              <o>
+                <i>2</i>
+                <n>Free</n>
+              </o>
+              <o>
+                <i>3</i>
+                <n>Free and trial</n>
+              </o>
+              <o>
+                <i>4</i>
+                <n>Paid</n>
+              </o>
+            </os>
+          </f>
+          <sort>
+            <i>idBrowse</i>
+            <sortbypname>sortBy</sortbypname>
+            <sortorderpname>sortOrder</sortorderpname>
+            <d>1</d>
+            <os>
+              <o>
+                <i>1</i>
+                <n>Sort by noteworthy</n>
+                <sb>3</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>2</i>
+                <n>Sort by newest</n>
+                <sb>4</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>3</i>
+                <n>Sort by highest rating</n>
+                <sb>1</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>4</i>
+                <n>Sort by lowest price</n>
+                <sb>2</sb>
+                <so>1</so>
+              </o>
+              <o>
+                <i>5</i>
+                <n>Sort by highest price</n>
+                <sb>2</sb>
+                <so>2</so>
+              </o>
+            </os>
+          </sort>
+          <sort>
+            <i>idSearch</i>
+            <sortbypname>sortBy</sortbypname>
+            <sortorderpname>sortOrder</sortorderpname>
+            <d>1</d>
+            <os>
+              <o>
+                <i>1</i>
+                <n>Sort by relevance</n>
+                <sb>0</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>2</i>
+                <n>Sort by newest</n>
+                <sb>4</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>3</i>
+                <n>Sort by highest rating</n>
+                <sb>1</sb>
+                <so>2</so>
+              </o>
+              <o>
+                <i>4</i>
+                <n>Sort by lowest price</n>
+                <sb>2</sb>
+                <so>1</so>
+              </o>
+              <o>
+                <i>5</i>
+                <n>Sort by highest price</n>
+                <sb>2</sb>
+                <so>2</so>
+              </o>
+            </os>
+          </sort>
+        </fs>
+        <cs>
+          <rap>
+            <i>app</i>
+            <os>
+              <o>
+                <i>7</i>
+                <n>Offensive content</n>
+              </o>
+              <o>
+                <i>9</i>
+                <n>Child exploitation</n>
+              </o>
+              <o>
+                <i>11</i>
+                <n>Malware or virus</n>
+              </o>
+              <o>
+                <i>4</i>
+                <n>Copyright, trademark and other intellectual property concerns</n>
+              </o>
+              <o>
+                <i>13</i>
+                <n>Other</n>
+              </o>
+            </os>
+          </rap>
+          <rap>
+            <i>review</i>
+            <os>
+              <o>
+                <i>1</i>
+                <n>Contains spam or advertising</n>
+              </o>
+              <o>
+                <i>2</i>
+                <n>Contains profanity</n>
+              </o>
+              <o>
+                <i>7</i>
+                <n>Contains offensive content</n>
+              </o>
+            </os>
+          </rap>
+          <c>
+            <i>3</i>
+            <n>Games</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>3</d>
+                <os>
+                  <o>
+                    <i>231</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                  <o>
+                    <i>30</i>
+                    <n>Action</n>
+                  </o>
+                  <o>
+                    <i>31</i>
+                    <n>Adventure</n>
+                  </o>
+                  <o>
+                    <i>32</i>
+                    <n>Arcade</n>
+                  </o>
+                  <o>
+                    <i>33</i>
+                    <n>Card</n>
+                  </o>
+                  <o>
+                    <i>34</i>
+                    <n>Casino</n>
+                  </o>
+                  <o>
+                    <i>35</i>
+                    <n>Family</n>
+                  </o>
+                  <o>
+                    <i>36</i>
+                    <n>Kids</n>
+                  </o>
+                  <o>
+                    <i>37</i>
+                    <n>Music</n>
+                  </o>
+                  <o>
+                    <i>38</i>
+                    <n>Puzzle</n>
+                  </o>
+                  <o>
+                    <i>39</i>
+                    <n>Racing</n>
+                  </o>
+                  <o>
+                    <i>40</i>
+                    <n>Role playing</n>
+                  </o>
+                  <o>
+                    <i>41</i>
+                    <n>Shooter</n>
+                  </o>
+                  <o>
+                    <i>42</i>
+                    <n>Simulation</n>
+                  </o>
+                  <o>
+                    <i>43</i>
+                    <n>Sports</n>
+                  </o>
+                  <o>
+                    <i>44</i>
+                    <n>Strategy</n>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>5</i>
+            <n>Social</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>5</d>
+                <os>
+                  <o>
+                    <i>50</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>6</i>
+            <n>Entertainment</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>6</d>
+                <os>
+                  <o>
+                    <i>60</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>7</i>
+            <n>Photo</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>7</d>
+                <os>
+                  <o>
+                    <i>70</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>8</i>
+            <n>Music &amp; Video</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>8</d>
+                <os>
+                  <o>
+                    <i>232</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                  <o>
+                    <i>80</i>
+                    <n>Music</n>
+                  </o>
+                  <o>
+                    <i>81</i>
+                    <n>Video</n>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>9</i>
+            <n>Sports</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>9</d>
+                <os>
+                  <o>
+                    <i>90</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>10</i>
+            <n>Books &amp; Reference</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>10</d>
+                <os>
+                  <o>
+                    <i>233</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                  <o>
+                    <i>100</i>
+                    <n>E-reader</n>
+                  </o>
+                  <o>
+                    <i>101</i>
+                    <n>Fiction</n>
+                  </o>
+                  <o>
+                    <i>102</i>
+                    <n>Non-fiction</n>
+                  </o>
+                  <o>
+                    <i>103</i>
+                    <n>Reference</n>
+                  </o>
+                  <o>
+                    <i>104</i>
+                    <n>Kids</n>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>11</i>
+            <n>News &amp; Weather</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>11</d>
+                <os>
+                  <o>
+                    <i>234</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                  <o>
+                    <i>110</i>
+                    <n>News</n>
+                  </o>
+                  <o>
+                    <i>111</i>
+                    <n>Weather</n>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>12</i>
+            <n>Health &amp; Fitness</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>12</d>
+                <os>
+                  <o>
+                    <i>120</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>13</i>
+            <n>Food &amp; Dining</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>13</d>
+                <os>
+                  <o>
+                    <i>130</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>14</i>
+            <n>Lifestyle</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>14</d>
+                <os>
+                  <o>
+                    <i>140</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>15</i>
+            <n>Shopping</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>15</d>
+                <os>
+                  <o>
+                    <i>150</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>16</i>
+            <n>Travel</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>16</d>
+                <os>
+                  <o>
+                    <i>160</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>17</i>
+            <n>Finance</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>17</d>
+                <os>
+                  <o>
+                    <i>170</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>18</i>
+            <n>Productivity</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>18</d>
+                <os>
+                  <o>
+                    <i>180</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>19</i>
+            <n>Tools</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>19</d>
+                <os>
+                  <o>
+                    <i>190</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>20</i>
+            <n>Security</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>20</d>
+                <os>
+                  <o>
+                    <i>235</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                  <o>
+                    <i>201</i>
+                    <n>PC protection</n>
+                  </o>
+                  <o>
+                    <i>202</i>
+                    <n>Personal security</n>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>21</i>
+            <n>Business</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>21</d>
+                <os>
+                  <o>
+                    <i>210</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>22</i>
+            <n>Education</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>22</d>
+                <os>
+                  <o>
+                    <i>220</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+          <c>
+            <i>23</i>
+            <n>Government</n>
+            <fs>
+              <f>
+                <i>idSubCategory</i>
+                <pn>cid</pn>
+                <d>23</d>
+                <os>
+                  <o>
+                    <i>230</i>
+                    <n>(none)</n>
+                    <h>true</h>
+                  </o>
+                </os>
+              </f>
+            </fs>
+          </c>
+        </cs>
+      </section>
+    </root>
+  </Nr>
+  <LMs>
+    <LM>
+      <LT>1</LT>
+      <LN>Picks for you</LN>
+    </LM>
+    <LM>
+      <LT>2</LT>
+      <LN>All stars</LN>
+    </LM>
+    <LM>
+      <LT>3</LT>
+      <LN>Top paid</LN>
+    </LM>
+    <LM>
+      <LT>4</LT>
+      <LN>Top free</LN>
+    </LM>
+    <LM>
+      <LT>5</LT>
+      <LN>New releases</LN>
+    </LM>
+    <LM>
+      <LT>6</LT>
+      <LN>Popular now</LN>
+    </LM>
+  </LMs>
+</Br>
+
+
+------------------------------------------------------
+
+https://lic.apps.microsoft.com/Commerce/Purchase/6.2.9200-1/615/p/1926e0a0-5e41-48e1-ba68-be35f2266a03/t/1/channel/10005001/locale/en-US/market/RU/al/ru-RU
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>0.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>р.</CurrencySymbol>
+    <TransactionId>241eea65-ec05-44c6-86d2-38b1d6199469</TransactionId>
+    <ServiceTicket>EwBoApVABAAUqPq18hpYHZBQFiQjg6Ywv8m8HEQAAXXnD2WQKaxDYndWX5vcp9wdCgzca2i0tLPbpV+bJKSRwsbDk9ZMfV/FvYWlRCxokik1xY3Ui/38Mff+UrBa0RQDvzLJ0IBS9+o7Yb//xAd7PdseQfSfd0ryfCGdo2/uZtCOM5MT7VLnoUnqtUF/hoybiqkH437gzuG900BRg/cNBVAY/vTOxH31wgjqMlLt+WvYIOfLGx2Fwv1lOnS/VaOlmbNEtgTYIk63ZKxAK0Le/+C+b/5ti13oAezFTcpNQ8irQxQPb2qPAaVLO6itaRtR85hJALF9IWpHcjMN/TNSuXSQIhMh2LbmpnHzzLijb1GB3Tl5FNoaOkrtqxVQllgDZgAACNlI9zEx2JE2OAFg334Di+h2xiupsUPvnpAZxxqUCjim4oMcYlqHIa57HmYjmnxwlqs2RipisX3Yu5DlS5R5Cp/LOkXffDjI4l8lFok7OHFPYhhvONkv8uVjTvAP3Rsy1MP2e12LhEnCe93XmkE+4VZrPi8Q7BphYwXGl5KTh7PJZo9Rb5UCOTpSUvRMxLOMEyHz+t+WuZXOW1+V34OSveW8WFmr+JzCLCv5Y6hfUYAs6kcbdwXQL92Ie/Xdg78QCcm5DCC06M4LhdSBCaXDTk95b2RCPLqs166NiZ6yht4PIJ2ynQUoJSe8ibHJfBgIlpYb3VhURs1LWZaBcBDSA/OcRNDX1LJH4bykTvRaaI4cWEXE+I/71FY/s1lues00KaPHNPBJeUQGJLtTS/5voGsZ7+aXWNQ2I57L7GZTNmzr+X5lAQ==&amp;p=</ServiceTicket>
+    <ReleaseGuid>41c94808-a294-479b-a2fb-b34ec8d903a9</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>1926e0a0-5e41-48e1-ba68-be35f2266a03</I>
+        <R>41c94808-a294-479b-a2fb-b34ec8d903a9</R>
+        <B>41c94808-a294-479b-a2fb-b34ec8d903a9</B>
+        <Pfn>Microsoft.FreshPaint_8wekyb3d8bbwe</Pfn>
+        <T>Fresh Paint</T>
+        <Wr>3</Wr>
+        <Ico>41c94808-a294-479b-a2fb-b34ec8d903a9/Icon.2088.png</Ico>
+        <Bg>#FCD116</Bg>
+        <Fg>dark</Fg>
+        <Sr>4.6</Sr>
+        <R0 />
+        <C>
+          <I>6</I>
+          <N>Развлечения</N>
+        </C>
+        <Sc>
+          <I>60</I>
+          <N>(отсутствует)</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>false</Try>
+        <Lud>2012-10-27T07:09:06.357-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Fresh Paint</N>
+            <Sn>Fresh Paint</Sn>
+            <Bg>#FCD116</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.2.2088.2380.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.1.2088.2380.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+  </Result>
+  <TransactionId>241eea65-ec05-44c6-86d2-38b1d6199469</TransactionId>
+</PurchaseResponse>
+
+------------------------------------------------------
+
+https://lic.apps.microsoft.com/Commerce/Purchase/6.2.9200-1/615/p/1926e0a0-5e41-48e1-ba68-be35f2266a03/t/1/channel/10005001/locale/en-US/market/RU/al/ru-RU
+
+WE STILL HAVE NO MACHINE ID !!
+
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmBody>
+  <TransactionId>241eea65-ec05-44c6-86d2-38b1d6199469</TransactionId>
+  <Price>0.00</Price>
+  <DigitalMarker>
+    <GenuineTicketError>0xC004F200</GenuineTicketError>
+  </DigitalMarker>
+  <MachineId></MachineId>
+  <challenge>
+    <ClientInformation>
+      <Version>1.0</Version>
+      <ClientVersion>1.0.0.0</ClientVersion>
+      <HardwareID>LgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA==</HardwareID>
+      <SystemName>WIN-342HK2BOO4Q</SystemName>
+      <SystemManufacturer>innotek GmbH</SystemManufacturer>
+      <SystemProductName>VirtualBox</SystemProductName>
+      <N>130925369</N>
+      <SKU>7</SKU>
+    </ClientInformation>
+    <ProductID>{1926E0A0-5E41-48E1-BA68-BE35F2266A03}</ProductID>
+  </challenge>
+  <SCM>
+    <![CDATA[]]>
+  </SCM>
+    <SendReceipt>false</SendReceipt>
+</ConfirmBody>
+
+RESPONSE:
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>0.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>р.</CurrencySymbol>
+    <TransactionId>241eea65-ec05-44c6-86d2-38b1d6199469</TransactionId>
+    <ReleaseGuid>41c94808-a294-479b-a2fb-b34ec8d903a9</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>1926e0a0-5e41-48e1-ba68-be35f2266a03</I>
+        <R>41c94808-a294-479b-a2fb-b34ec8d903a9</R>
+        <B>41c94808-a294-479b-a2fb-b34ec8d903a9</B>
+        <Pfn>Microsoft.FreshPaint_8wekyb3d8bbwe</Pfn>
+        <T>Fresh Paint</T>
+        <Wr>3</Wr>
+        <Ico>41c94808-a294-479b-a2fb-b34ec8d903a9/Icon.2088.png</Ico>
+        <Bg>#FCD116</Bg>
+        <Fg>dark</Fg>
+        <Sr>4.6</Sr>
+        <R0 />
+        <C>
+          <I>6</I>
+          <N>Развлечения</N>
+        </C>
+        <Sc>
+          <I>60</I>
+          <N>(отсутствует)</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>false</Try>
+        <Lud>2012-10-27T07:09:06.357-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Fresh Paint</N>
+            <Sn>Fresh Paint</Sn>
+            <Bg>#FCD116</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.2.2088.2380.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.1.2088.2380.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>41c94808-a294-479b-a2fb-b34ec8d903a9/AppTile.3.2088.2380.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+    <LicensingResponse>
+      <LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0">
+        <MachineIDResponse>77u/PE1hY2hpbmU+PFJlZ2lzdHJhdGlvbj48TWFjaGluZUlEPjE1ZjcxYjEyLWMwYTctNDE0Yi1hMzQ3LWVkYjE0NjA1NDVhZjwvTWFjaGluZUlEPjxIYXJkd2FyZUlEPlhBQUFBQk1BTGdBQUFBRUFBd0FCQUFFQUFBQUJBQUFBQVFBQkFBRUErbDZrUE9lREpHYm10LzdiaUFSMjZIYjVHREVBSEEwQUFnQUJBUUFDQlFBREFRQUVBZ0FGQUFBR0FRQUhBQUFJQndBSkF3QUtBUUFMQUFBTUJ3QT08L0hhcmR3YXJlSUQ+PC9SZWdpc3RyYXRpb24+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT45MnBVMEtuWFdMVEMzWG5qK2thMGhuTFQyZVlOY1JEM2F1cVc3alExdTVvPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5Mb1FXa09SSHVhNjlBWFRQSE9SamxRekR2WFMrZXppamo4cFJSbENQWGRNRnVqVUoxcHVkSng1a2o3bWJEeUhKTzNsZkdNZ0xvZXBFRnRaREo5enJTSXZjd3B3Z1gzamhPeFpkWU5IbEMwWnpZdko3NWJhSVdsTDh3U21hZWU5MVh2azhsSHlEYXJ5MVJES0FrUjJGbzNPcW9Eb1RyRkFzU3orS3NOYmtQSFdHWWgrZHI2UEJLSkNFQkdIak9UeGp5TXlGak5LOHhtaVVZWXp5bjBhczFwTXlibXh3U0wzYnNld05RVmRWb1pKZHFwQWpvUXZ4VXVlYi8vTWFQYnVBKzdrR2ZwZ0drSmtkdFJtMDVCTUlBN2pnb3FBRGNneG1pbmZHRVZodzJ1dmgwVDNkWnVlU05ISTBBU01xRmFXV0dUS2JjakI1NUdaS1prazlhZjVvM3c9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9NYWNoaW5lPg==</MachineIDResponse>
+        <ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSIxMzA5MjUzNjkiPjxNYWNoaW5lSUQ+MTVmNzFiMTItYzBhNy00MTRiLWEzNDctZWRiMTQ2MDU0NWFmPC9NYWNoaW5lSUQ+PEN1cnJlbnRUaW1lPjIwMTItMTEtMDRUMTU6MTY6NTJaPC9DdXJyZW50VGltZT48L0luZm8+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT5OZ2VydmNHQjhxSzdWNTIvb3p3THozcWhQaEc1ci83V094M25RajJhSVVjPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5teVVCT1RHSTFWYzkyMlNVV01PRm15clhWV3l4dG95a0JDa0lvNjU0bFF4bUdwSlR4SHZ3WEpYQXU0UVlWWWt2cXdJTnZyNG9xSStLc3RUZ2JZVWprakthNGRYMmdQUnpLRjhzdkMzWnhzOGJ2ZWlDYUFrMytWcitwd24rTmlTVkRINmk4YVFjMWlMM3RnaVljRWdOb2FGWEh4Mm1GcGVxZkZmbVZmbkdjeW5Va0NMMHlRbS95dzFJOHIyS3RSYk9vRDg1UWh2LzJxUkUzRTZ3TlptSzRCUDVTOWZuNE5XYVRHTFBMdkRiN3FtaE4zd1Y5RXFqT1JESjlmR3BjN25OWXdhNU5pTU54N1FiNnZxSk0vV0xObXBjNWNZS3ovdUZFbDE2emJDdmxXV0I5OG9vcTQvNzdnaVNycmExN2xDdXR4M3dkNlplVmxKR2I2LzNiaXpvTkE9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9TZXJ2ZXI+</ServerInfoResponse>
+        <UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1">
+          <License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD4xOTI2ZTBhMC01ZTQxLTQ4ZTEtYmE2OC1iZTM1ZjIyNjZhMDM8L1Byb2R1Y3RJRD48UEZNPk1pY3Jvc29mdC5GcmVzaFBhaW50Xzh3ZWt5YjNkOGJid2U8L1BGTT48SGFyZHdhcmVJRD5YQUFBQUJNQUxnQUFBQUVBQXdBQkFBRUFBQUFCQUFBQUFRQUJBQUVBK2w2a1BPZURKR2JtdC83YmlBUjI2SGI1R0RFQUhBMEFBZ0FCQVFBQ0JRQURBUUFFQWdBRkFBQUdBUUFIQUFBSUJ3QUpBd0FLQVFBTEFBQU1Cd0E9PC9IYXJkd2FyZUlEPjxNYWNoaW5lSUQ+MTVmNzFiMTItYzBhNy00MTRiLWEzNDctZWRiMTQ2MDU0NWFmPC9NYWNoaW5lSUQ+PFVzZXJJRD43OWQxYjA2MzIxMWFjZTNjPC9Vc2VySUQ+PC9CaW5kaW5nPjxMaWNlbnNlSW5mbyBUeXBlPSJGdWxsIj48SXNzdWVkRGF0ZT4yMDEyLTExLTA0VDE1OjE2OjUyWjwvSXNzdWVkRGF0ZT48TGFzdFVwZGF0ZURhdGU+MjAxMi0xMS0wNFQxNToxNjo1Mlo8L0xhc3RVcGRhdGVEYXRlPjwvTGljZW5zZUluZm8+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT5ROGQxbVZic2s3S3MramFPc2R3TktIRlNwb0s5RS85cnByeTViUitsREVZPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5nSkxRb2l5emNYakxaR21kZkUyV3ZjS3U3cHpPbjVzWUgrcTAya2VHU3VJUCtVd0ovc1RlbERwSU9UMnpmdk5FS0dNSzhNS0tNM0REeW95VTZkVmErR094WFAvZFl4Skc4ZEF2SXZQanBzSlZYV0xoN2g2UXBVZTdOVEcwV2lKWnR4cGFkbEZDeS9XMlJQOHczRlp2N2kvazJid1kweTR4bHhJWWI2cUhXNVBNQXEwQ2kyWkJpUE9obGpuU2hNYjZ5czJzbTgrTzQ5U3BCdnh4cnpzUDJlaDFsanN0VHB5VTZYMkNaZlhzL0xqQXM0enBXTWpmYnRPZVZQNDQzTDdLdC9sTzRwYVd2N3p3QnFmdC95ZG9QNzdoMFNYNjE3ZkdZZWFRSTBLS0NKQ3QwWlVnVGd6MW9SaVhDR3kvTFFZWmQwQWpXcEtwa1dlZ2xFeTdOV1UzRnc9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9MaWNlbnNlPg==</License>
+        </UpdatedLicense>
+      </LicenseResponse>
+    </LicensingResponse>
+  </Result>
+  <TransactionId>241eea65-ec05-44c6-86d2-38b1d6199469</TransactionId>
+</PurchaseResponse>
+
+
+MACHINE ID RESPONSE (Bas64) :
+
+<Machine>
+  <Registration>
+    <MachineID>11111111-2222-3333-4444-555555555555</MachineID>
+    <HardwareID>XAAAABMALgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+  </Registration>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>92pU0KnXWLTC3Xnj+ka0hnLT2eYNcRD3auqW7jQ1u5o=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>LoQWkORHua69AXTPHORjlQzDvXS+ezijj8pRRlCPXdMFujUJ1pudJx5kj7mbDyHJO3lfGMgLoepEFtZDJ9zrSIvcwpwgX3jhOxZdYNHlC0ZzYvJ75baIWlL8wSmaee91Xvk8lHyDary1RDKAkR2Fo3OqoDoTrFAsSz+KsNbkPHWGYh+dr6PBKJCEBGHjOTxjyMyFjNK8xmiUYYzyn0as1pMybmxwSL3bsewNQVdVoZJdqpAjoQvxUueb//MaPbuA+7kGfpgGkJkdtRm05BMIA7jgoqADcgxminfGEVhw2uvh0T3dZueSNHI0ASMqFaWWGTKbcjB55GZKZkk9af5o3w==</SignatureValue>
+  </Signature>
+</Machine>
+
+
+SERVER INFO RESPONSE (Base64) :
+
+<Server>
+  <Info N="130925369">
+    <MachineID>11111111-2222-3333-4444-555555555555<MachineID>
+    <CurrentTime>2012-11-04T15:16:52Z</CurrentTime>
+  </Info>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>NgervcGB8qK7V52/ozwLz3qhPhG5r/7WOx3nQj2aIUc=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>myUBOTGI1Vc922SUWMOFmyrXVWyxtoykBCkIo654lQxmGpJTxHvwXJXAu4QYVYkvqwINvr4oqI+KstTgbYUjkjKa4dX2gPRzKF8svC3Zxs8bveiCaAk3+Vr+pwn+NiSVDH6i8aQc1iL3tgiYcEgNoaFXHx2mFpeqfFfmVfnGcynUkCL0yQm/yw1I8r2KtRbOoD85Qhv/2qRE3E6wNZmK4BP5S9fn4NWaTGLPLvDb7qmhN3wV9EqjORDJ9fGpc7nNYwa5NiMNx7Qb6vqJM/WLNmpc5cYKz/uFEl16zbCvlWWB98ooq4/77giSrra17lCutx3wd6ZeVlJGb6/3bizoNA==</SignatureValue>
+  </Signature>
+</Server>
+
+LICENSE RESPONSE (Base64) :
+
+<License Version="1" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>1926e0a0-5e41-48e1-ba68-be35f2266a03</ProductID>
+    <PFM>Microsoft.FreshPaint_8wekyb3d8bbwe</PFM>
+    <HardwareID>XAAAABMALgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+    <MachineID>11111111-2222-3333-4444-555555555555</MachineID>
+    <UserID>79d1b063211ace3c</UserID>
+  </Binding>
+  <LicenseInfo Type="Full">
+    <IssuedDate>2012-11-04T15:16:52Z</IssuedDate>
+    <LastUpdateDate>2012-11-04T15:16:52Z</LastUpdateDate>
+  </LicenseInfo>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>Q8d1mVbsk7Ks+jaOsdwNKHFSpoK9E/9rpry5bR+lDEY=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>gJLQoiyzcXjLZGmdfE2WvcKu7pzOn5sYH+q02keGSuIP+UwJ/sTelDpIOT2zfvNEKGMK8MKKM3DDyoyU6dVa+GOxXP/dYxJG8dAvIvPjpsJVXWLh7h6QpUe7NTG0WiJZtxpadlFCy/W2RP8w3FZv7i/k2bwY0y4xlxIYb6qHW5PMAq0Ci2ZBiPOhljnShMb6ys2sm8+O49SpBvxxrzsP2eh1ljstTpyU6X2CZfXs/LjAs4zpWMjfbtOeVP443L7Kt/lO4paWv7zwBqft/ydoP77h0SX617fGYeaQI0KKCJCt0ZUgTgz1oRiXCGy/LQYZd0AjWpKpkWeglEy7NWU3Fw==</SignatureValue>
+  </Signature>
+</License>
+
+
+------------------------------------------------------
+
+https://lic.apps.microsoft.com/Licensing/UserPortal/GetApplicationList/6.2.9200-1/615/?PageNum=0
+
+<?xml version="1.0" encoding="utf-8"?>
+<MyApplications Version="1.0" ErrorCode="0x0" AllDone="1">
+  <ApplicationList>
+    <AppLicense ProductID="1926e0a0-5e41-48e1-ba68-be35f2266a03" Type="Full" Status="Active" IssueDate="2012-11-04T15:16:52Z" />
+  </ApplicationList>
+</MyApplications>

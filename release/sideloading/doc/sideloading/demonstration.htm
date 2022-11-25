@@ -1,0 +1,53 @@
+<HTML>
+
+<BODY>
+
+<H2>Windows 8/2012 Windows Store Service crack</H2>
+
+Imagine you want to deploy self-signed (may be repacked) appx.
+You run powershell :
+<BR><BR>
+<img src="1.jpg"><BR>
+
+<BR>Then you switch to metro start screen and attempt to launch application<BR><BR>
+
+<img src="2.jpg"><BR>
+
+<BR>Whoops ! Error. This is probably because windows do not allow sideloading of metro applications.
+I assume you are smart guy and made the appx right, signed it and imported code signing cert into local machine's Trusted Root certificate store.
+Also you set the following policy key : <BR>
+<P>
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx]<BR>
+"AllowAllTrustedApps"=dword:00000001
+</P>
+
+Now let's start Windows Store cracking service.<BR><BR>
+
+<img src="3.jpg"><BR>
+
+<BR>To monitor cracking service activity launch DbgView from sysinternals<BR><BR>
+
+<img src="4.jpg"><BR>
+
+<BR>Let's deploy our appx again<BR><BR>
+
+<img src="5.jpg"><BR>
+
+<BR>Here is DbgView output<BR><BR>
+
+<img src="6.jpg"><BR>
+
+<BR>Now launch application again<BR><BR>
+
+<img src="7.jpg"><BR>
+
+<BR>It worked now ! This is because cracking service fakes Windows Store service to think that it is running on domain joined machine.
+Microsoft allows sideloading either on domain machines or on machines having special sideloading product key installed.
+May be once those keys will be available to public, but now here is my solution to the problem.
+Also machines having developer license are allowed to run unsigned metro applications. But this license expires every month and
+Microsoft promises to monitor developers activity to fight piracy and other abuse.
+<BR>
+Enjoy !<BR><BR>
+
+</BODY>
+</HTML>

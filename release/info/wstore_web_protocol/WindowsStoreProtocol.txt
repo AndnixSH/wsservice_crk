@@ -1,0 +1,169 @@
+https://lic.apps.microsoft.com
+
+*** Purchase
+
+GET /Commerce/Purchase/6.2.9200-1/615/p/e1dd130e-d240-4c57-947c-0809b0b93acf/t/2/channel/10005001/locale/en-US/market/RU/al/en-US HTTP/1.1
+
+*** Response
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>false</Success>
+  <ErrorCode>710</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>460.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>ð.</CurrencySymbol>
+    <TransactionId>b9e73900-2232-4b04-9863-2e47497437b4</TransactionId>
+    <ServiceTicket>EwBgApVABAAUqPq18hpYHZBQFiQjg6Ywv8m8HEQAARu2pspGYD2BOWCuAPBxacHdtgGl/N15AQXLF0RmKQcD/oqOF488M7P+wOPSqm7Tb7EWUZAyWJ92yLuhhQ2clbVEA2LAZwSD3f/rQiulq3YBVyMMC9IGWltEUj+l34xKg46oVlDxt7MPJxZbM2kuW76X5qk3BcyBUzT1+Hs9afCujd7DrJ20z1kFxxI82A1nm8mEitb/SsqxStu1YPFNC+24P7yxf1Q0x+IduaGFKqYwGyonjxrHVFLWe0xjQc51hKyBJSFc4GHx9RGZjSoxyV06imFbc2u5CFq7fc+SIysaqyRAckqr2VMyopog12hzH8mI+0BAelyRWRtebPdPdLUDZgAACPgjOLulT3nCMAHyp/Xv90K1X+YaGPXlJGytK7j7dS/k/BNpOxckX1PlnCuBcDbfZpVjfB8ov3WUoytcmW0XMASUqFfP0SqrkXr5ArZgczIcwhMpysYLloWaEPRrts2rD5t9uf4wsdj/RHuboMX+myXwQgT2BusxDROzFLENRQ7KJT6GqQpaUIEwQl39t9kQrlQ2v74R+fpHCkRVaAuwQwuJw3nWXocrv1u63rTba6FdValGEpC2a2TOXr4lCq8SLqjfKXo8leOzZUBHrrx2U7OxURU3ODB8SnCI1bXlIEiDQ/DaEPvnXDEIkPpv+4VWqU4LI0e7KjjPeuJVEb8J5r2jNCbl6UTf/hZKVHiTFGmccSeqBuUrQws5F5BSp8UbcujoDqLAtVZ7BEmsQQq4TKlOrA8xAqxUe6joXAE=&amp;p=</ServiceTicket>
+    <ReleaseGuid>923db4e5-ac20-4081-9f51-170ba2b79601</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>e1dd130e-d240-4c57-947c-0809b0b93acf</I>
+        <R>923db4e5-ac20-4081-9f51-170ba2b79601</R>
+        <B>923db4e5-ac20-4081-9f51-170ba2b79601</B>
+        <Pfn>F508037F.PowerDVDMobile_7j1xgptdajq4j</Pfn>
+        <T>PowerDVD Mobile</T>
+        <Wr>12</Wr>
+        <Ico>923db4e5-ac20-4081-9f51-170ba2b79601/Icon.11803.png</Ico>
+        <Bg>#000000</Bg>
+        <Fg>light</Fg>
+        <Sr>3.9</Sr>
+        <R0 />
+        <C>
+          <I>8</I>
+          <N>Music &amp;amp; Video</N>
+        </C>
+        <Sc>
+          <I>81</I>
+          <N>Video</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>true</Try>
+        <Tryd>15</Tryd>
+        <Lud>2012-10-31T07:12:47.66-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>PowerDVD Mobile</N>
+            <Bg>#000000</Bg>
+            <Fg>light</Fg>
+            <Mai>App</Mai>
+            <Logo>923db4e5-ac20-4081-9f51-170ba2b79601/AppTile.2.11803.12513.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>923db4e5-ac20-4081-9f51-170ba2b79601/AppTile.3.11803.12513.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>923db4e5-ac20-4081-9f51-170ba2b79601/AppTile.1.11803.12513.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>923db4e5-ac20-4081-9f51-170ba2b79601/AppTile.3.11803.12513.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>true</AlreadyOwned>
+  </Result>
+  <TransactionId>b9e73900-2232-4b04-9863-2e47497437b4</TransactionId>
+</PurchaseResponse>
+
+-----------------------------------------------------------------------------------------------------
+
+
+*** Getting license
+
+POST /Licensing/License/AcquireLicense/6.2.9200-1/615 HTTP/1.1
+
+<challenge>
+  <ClientInformation>
+    <Version>1.0</Version>
+    <ClientVersion>1.0.0.0</ClientVersion>
+    <HardwareID>LgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA==</HardwareID>
+    <SystemName>WIN-10RC2KGP7FU</SystemName>
+    <SystemManufacturer>VMware, Inc.</SystemManufacturer>
+    <SystemProductName>VMware Virtual Platform</SystemProductName>
+    <MachineID>{BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC}</MachineID>
+    <N>271224093</N>
+    <SKU>7</SKU>
+  </ClientInformation>
+  <ProductID>{E1DD130E-D240-4C57-947C-0809B0B93ACF}</ProductID>
+</challenge>
+
+
+*** Response :
+
+<?xml version="1.0" encoding="utf-8"?>
+<LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0">
+  <ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSIyNzEyMjQwOTMiPjxNYWNoaW5lSUQ+YTE0OTJjY2QtNjM5Zi00MmI1LWEzYjktMGEyZjU0ZTRhYmRhPC9NYWNoaW5lSUQ+PEN1cnJlbnRUaW1lPjIwMTItMTAtMzFUMTE6NTE6MzFaPC9DdXJyZW50VGltZT48L0luZm8+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT43a3Q2Q09obHlVbmw2azh2clFFWE1zMGZReStPdEhQd1ZmV1J6dVMxM0R3PTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5tTHo4ampFSlNXMngyZDJpa2VRMXY1WHZJengycGM5YmRqZ0pXSG5aL3FiUkhRYk56SnpRdkExMGlreDZxNXhLSm50RnlXcXZTSUxDclNzWGFrTFdmSEhOQ2lOTlFFaVJpR2lsN1cvb0FacE0zK3dYeVBXZmFNaHFNM2ZWV3VuUDlpOVpZZXdxc3gxendOUzdIZVQwVWkzeDBkb0QzaGduSnc2YTl4dDN4VHJLc2w3KzJyRk5wSFQ5TXplMXZyUnpYQWlVNklTM0h1ZENoQ0xxMTU3VHZ0cTVIL1lNK0tDVkc2SWNCZElIbTlZS21mcUhnMEJuR1h1QlBzYnZQc2w0Z2FGN3lvZGxkU0VoNkVOaDducXBReHQ0MURMNzVpUVhhZDNGUTRreGVhZ1U5REY1MGJEcjhiYjRxc2c1eFhEV2ZGZTNvcWxqUnN2SU1BYk81Q1hJWWc9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9TZXJ2ZXI+</ServerInfoResponse>
+  <UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1">
+    <License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD5lMWRkMTMwZS1kMjQwLTRjNTctOTQ3Yy0wODA5YjBiOTNhY2Y8L1Byb2R1Y3RJRD48UEZNPkY1MDgwMzdGLlBvd2VyRFZETW9iaWxlXzdqMXhncHRkYWpxNGo8L1BGTT48SGFyZHdhcmVJRD5YQUFBQUJNQUxnQUFBQUVBQWdBQkFBRUFBUUFCQUFBQUFRQUJBQUVBbGl2K2xhUVJERnptdDJJRi9CVG5JV09wSVRBQUhBMEFBZ0FCQVFBQ0JRQURBUUFFQWdBRkFBQUdBUUFIQUFBSUJ3QUpBd0FLQVFBTEFBQU1Cd0E9PC9IYXJkd2FyZUlEPjxNYWNoaW5lSUQ+YTE0OTJjY2QtNjM5Zi00MmI1LWEzYjktMGEyZjU0ZTRhYmRhPC9NYWNoaW5lSUQ+PFVzZXJJRD43ZmY0MzE4MWM4MmYyNmVhPC9Vc2VySUQ+PC9CaW5kaW5nPjxMaWNlbnNlSW5mbyBUeXBlPSJUcmlhbCI+PElzc3VlZERhdGU+MjAxMi0xMC0yOFQxNzoyNzo1OVo8L0lzc3VlZERhdGU+PExhc3RVcGRhdGVEYXRlPjIwMTItMTAtMjhUMTc6Mjc6NTlaPC9MYXN0VXBkYXRlRGF0ZT48RXhwaXJhdGlvbkRhdGU+MjAxMi0xMS0xMlQxNzoyNzo1OVo8L0V4cGlyYXRpb25EYXRlPjwvTGljZW5zZUluZm8+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiIC8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiIC8+PFJlZmVyZW5jZSBVUkk9IiI+PFRyYW5zZm9ybXM+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNlbnZlbG9wZWQtc2lnbmF0dXJlIiAvPjwvVHJhbnNmb3Jtcz48RGlnZXN0TWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxlbmMjc2hhMjU2IiAvPjxEaWdlc3RWYWx1ZT43WHExckc2MFZSSkx0WW16eDlUTHJNVzh3S2FHdDR1elJJUVFmYTVxU2xNPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5RUUk3ZEdndmVDVW9NZzFtVklENloxRVAvd3RFbWFISlFjMWJCcm1DNDhQdUp3bkoyRlBWN25odXZuY3h4ak9vZTAvS2FCYS9aTlh5SjN2S3BDZkM3anpQUTRNOXY2RlpkdC9QZHIyV25ITUVIT1NqcWpBYmgvYU1XOFZicnJBdThHNXRORFNQWE9XZmtOVi9aTk9FcTAzR2hxK0R3OE5XZHV1R1k0akRxQ3B6TlN4ODlZUnVaeGEyWjRzQkhDOVdpZ0pFM0lVR3ZGcE5USGtreXo2SXJvM0phcTgvaldlMWdWbVJSOTZMUUk5Y3phSlA0bmlqdXVJWXgxMkZWNlZ4bTBIdk1JdXpIUHBiL21Uc1R6cW9BNkR2OFI4b3o4WnN0RDFqYUpJRW9ZRHJvbVowWml5bEtIM1l1MjhjV29QVVlhbEsvbVlEV2d2SWNIWVdKTy9URUE9PTwvU2lnbmF0dXJlVmFsdWU+PC9TaWduYXR1cmU+PC9MaWNlbnNlPg==</License>
+  </UpdatedLicense>
+</LicenseResponse>
+
+
+
+*** ServerInfoResponse (base64) :
+
+<Server>
+  <Info N="271224093">
+    <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+    <CurrentTime>2012-10-31T11:51:31Z</CurrentTime>
+  </Info>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>7kt6COhlyUnl6k8vrQEXMs0fQy+OtHPwVfWRzuS13Dw=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>mLz8jjEJSW2x2d2ikeQ1v5XvIzx2pc9bdjgJWHnZ/qbRHQbNzJzQvA10ikx6q5xKJntFyWqvSILCrSsXakLWfHHNCiNNQEiRiGil7W/oAZpM3+wXyPWfaMhqM3fVWunP9i9ZYewqsx1zwNS7HeT0Ui3x0doD3hgnJw6a9xt3xTrKsl7+2rFNpHT9Mze1vrRzXAiU6IS3HudChCLq157Tvtq5H/YM+KCVG6IcBdIHm9YKmfqHg0BnGXuBPsbvPsl4gaF7yodldSEh6ENh7nqpQxt41DL75iQXad3FQ4kxeagU9DF50bDr8bb4qsg5xXDWfFe3oqljRsvIMAbO5CXIYg==</SignatureValue>
+  </Signature>
+</Server>
+
+*** License (base64) :
+
+<License Version="1" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>e1dd130e-d240-4c57-947c-0809b0b93acf</ProductID>
+    <PFM>F508037F.PowerDVDMobile_7j1xgptdajq4j</PFM>
+    <HardwareID>XAAAABMALgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+    <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+    <UserID>7ff43181c82f26ea</UserID>
+  </Binding>
+  <LicenseInfo Type="Trial">
+    <IssuedDate>2012-10-28T17:27:59Z</IssuedDate>
+    <LastUpdateDate>2012-10-28T17:27:59Z</LastUpdateDate>
+    <ExpirationDate>2012-11-12T17:27:59Z</ExpirationDate>
+  </LicenseInfo>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>7Xq1rG60VRJLtYmzx9TLrMW8wKaGt4uzRIQQfa5qSlM=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>QQI7dGgveCUoMg1mVID6Z1EP/wtEmaHJQc1bBrmC48PuJwnJ2FPV7nhuvncxxjOoe0/KaBa/ZNXyJ3vKpCfC7jzPQ4M9v6FZdt/Pdr2WnHMEHOSjqjAbh/aMW8VbrrAu8G5tNDSPXOWfkNV/ZNOEq03Ghq+Dw8NWduuGY4jDqCpzNSx89YRuZxa2Z4sBHC9WigJE3IUGvFpNTHkkyz6Iro3Jaq8/jWe1gVmRR96LQI9czaJP4nijuuIYx12FV6Vxm0HvMIuzHPpb/mTsTzqoA6Dv8R8oz8ZstD1jaJIEoYDromZ0ZiylKH3Yu28cWoPUYalK/mYDWgvIcHYWJO/TEA==</SignatureValue>
+  </Signature>
+</License>

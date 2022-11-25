@@ -1,0 +1,291 @@
+https://lic.apps.microsoft.com
+
+*** Purchase
+
+GET /Commerce/Purchase/6.2.9200-1/615/p/37e623e8-1bc9-4a7e-b8ae-0822a499f531/t/2/channel/10005001/locale/en-US/market/RU/al/en-US HTTP/1.1
+
+*** Response
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>60.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>ð.</CurrencySymbol>
+    <TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId>
+    <ServiceTicket>EwBgApVABAAUqPq18hpYHZBQFiQjg6Ywv8m8HEQAAagjSJetnVmZJpXdqDQhT0VqilQBVWhb2eARdRZ0ahBXeySwNS/t9/UKo96MKkPTgepFa5liTZPsfM5F1Tghg/VNOC20qLFZC0S7fMDS5+ggTcfVK2AIqeOUOPvkgd8tWjYJlIKrZRURZzUGMiVIFXBQLJ2ptAKZwf19OJgpX1kUXDtHlAwSPyl+8rjlwhKnhM5Kr1eq46Jweik+pysZrOC6uHdTqN9g8sLicwR+USlOGGwo7YghoFxz4Jfbsyon8mEnRefViAxHjc8Owa/8LeATofmJX70pMDch07d9coDpAMRIQsioQWZwr7z+9U7BWsGlsHnmMBdGRbbUNiyN/okDZgAACLe6fNd4nhMJMAFCWWoQuX8T2UFHg94/n2mmrHVw/1bmSS6zZSpCHjeZuqYwu3x8XLlt99DD6jhv4cTchCrpygPXS4gH0PKQ63fcS/3O+6OcrXrlnxRx5YiIDOQ2/uB9c5Vclo/XzNubnSA0BaPxTDslHVYI+89clXV6jm90K9J60C5fpYh6yJv9kir4XA70R26kqb54dJ64NybsCQ+vOPNASn8ytVZ6vCNWqcaXxlOvuDgYL1wZ+4YUOUgRSaWNhcAFaECdApIJD/yz9otWQEXeAuwit1QynXapEURDTOLT2AHn1Ke6jV5WjOuIdJN9O39hWI0lcKCj7SVcSVALgeTPqqnogtlYiHS9kRS+NgmZ6EG0jGXmrYIpfuWnKXuVK7kpGfkI/F7G5A7EhuPpG0aWqGh86AjAPZdxXAE=&amp;p=</ServiceTicket>
+    <ReleaseGuid>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>37e623e8-1bc9-4a7e-b8ae-0822a499f531</I>
+        <R>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</R>
+        <B>5ee87ffb-cf36-4abf-91c7-520869c18bb9</B>
+        <Pfn>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</Pfn>
+        <T>Ultimate Sudoku Solver</T>
+        <Wr>3</Wr>
+        <Ico>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/Icon.26635.png</Ico>
+        <Bg>#FFFFFF</Bg>
+        <Fg>dark</Fg>
+        <R0 />
+        <C>
+          <I>3</I>
+          <N>Games</N>
+        </C>
+        <Sc>
+          <I>38</I>
+          <N>Puzzle</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>true</Try>
+        <Tryd>7</Tryd>
+        <Lud>2012-11-01T07:13:37.803-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Ultimate Sudoku Solver</N>
+            <Sn>Sudoku Solver</Sn>
+            <Bg>#FFFFFF</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.2.26635.27230.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.1.26635.27230.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+  </Result>
+  <TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId>
+</PurchaseResponse>
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+*** Getting license
+
+POST /Commerce/Purchase/6.2.9200-1/615/p/37e623e8-1bc9-4a7e-b8ae-0822a499f531/t/2/channel/10005001/locale/en-US/market/RU/al/en-US HTTP/1.1
+
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmBody>
+  <TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId>
+  <Price>60.00</Price>
+  <DigitalMarker>
+    <GenuineTicketError>0x80070422</GenuineTicketError>
+  </DigitalMarker>
+  <MachineId></MachineId>
+  <challenge>
+    <ClientInformation>
+      <Version>1.0</Version>
+      <ClientVersion>1.0.0.0</ClientVersion>
+      <HardwareID>LgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA==</HardwareID>
+      <SystemName>WIN-10RC2KGP7FU</SystemName>
+      <SystemManufacturer>VMware, Inc.</SystemManufacturer>
+      <SystemProductName>VMware Virtual Platform</SystemProductName>
+      <MachineID>{A1492CCD-639F-42B5-A3B9-0A2F54E4ABDA}</MachineID>
+      <N>3489532721</N>
+      <SKU>7</SKU>
+    </ClientInformation>
+    <ProductID>{37E623E8-1BC9-4A7E-B8AE-0822A499F531}</ProductID>
+  </challenge>
+  <SCM>
+    <![CDATA[]]>
+  </SCM>
+    <SendReceipt>false</SendReceipt>
+  </ConfirmBody>
+
+
+*** Response :
+
+
+<?xml version="1.0" encoding="utf-8"?><PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Success>true</Success><ErrorCode>0</ErrorCode><Redirect xsi:nil="true" /><PCSIsNotArmSupported xsi:nil="true" /><Result><OfferPrice>60.00</OfferPrice><TotalSalesTax>0</TotalSalesTax><TotalTaxRate>0</TotalTaxRate><TotalPrice>0</TotalPrice><Currency>RUB</Currency><CurrencySymbol>ð.</CurrencySymbol><TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId><ReleaseGuid>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</ReleaseGuid><ProductTileData><Pt><I>37e623e8-1bc9-4a7e-b8ae-0822a499f531</I><R>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</R><B>5ee87ffb-cf36-4abf-91c7-520869c18bb9</B><Pfn>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</Pfn><T>Ultimate Sudoku Solver</T><Wr>3</Wr><Ico>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/Icon.26635.png</Ico><Bg>#FFFFFF</Bg><Fg>dark</Fg><R0 /><C><I>3</I><N>Games</N></C><Sc><I>38</I><N>Puzzle</N></Sc><Typ>1</Typ><Acc>false</Acc><Dca>false</Dca><Try>true</Try><Tryd>7</Tryd><Lud>2012-11-01T07:13:37.803-07:00Z</Lud><Ats><At><N>Ultimate Sudoku Solver</N><Sn>Sudoku Solver</Sn><Bg>#FFFFFF</Bg><Fg>dark</Fg><Mai>App</Mai><Logo>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.2.26635.27230.png</Logo><Img><T>3</T><U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U></Img><Imgs><Img><T>1</T><U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.1.26635.27230.png</U></Img><Img><T>3</T><U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U></Img></Imgs></At></Ats></Pt></ProductTileData><AlreadyOwned>false</AlreadyOwned><LicensingResponse><LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0"><ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSIzNDg5NTMyNzIxIj48TWFjaGluZUlEPmExNDkyY2NkLTYzOWYtNDJiNS1hM2I5LTBhMmY1NGU0YWJkYTwvTWFjaGluZUlEPjxDdXJyZW50VGltZT4yMDEyLTExLTAxVDA3OjI1OjAxWjwvQ3VycmVudFRpbWU+PC9JbmZvPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIiAvPjxTaWduYXR1cmVNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiAvPjxSZWZlcmVuY2UgVVJJPSIiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIgLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIgLz48RGlnZXN0VmFsdWU+cTVDOW5lcXdhUFJRQXhLRTZRN3ZJck1mVitIYjhmcTNhUloxZTNxOTVLaz08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+akFkN0xjZDRWdmVlR3dpVW1HdmUycThOQXE2WEE5QjBWL3l2cXpLa2J6Y0FzOUlHSG0ra1R1ZytPMmxvOUl0RGFvb05NU2NMWkkyUWZTOEhwRDhqS0cwS0tXUkxZeEpyVzdJRm9XdGtzMVlIUjdaUTFvb241ak5QSE1NQlZ4NXJNdGZyQkhRQk0xeGQ3YzIreGNSMG9sbkJFSjJhaGJWVVRnWG1JTCtXN2hpT28xZjVMb0EzS0JLbjAxb0NSLzlMNVVTSXhxS0ZYSXJvbStnZzc1VnRoV3hETkEzUnROalpKdnJDVmtPZ1N2aGE5elNlZktBajBldmpINDlBTTNmdG9taEkyTEE2Ky9BQ05PQ0pna0g2VC9KTDRjK0dhOUZ2UVFOMjE2cFRGdC92RzUxWXJ1Vy94SnJrM21EWXVONWNOTld5N1g5WVk4bjFiOUxsK3VEcG5nPT08L1NpZ25hdHVyZVZhbHVlPjwvU2lnbmF0dXJlPjwvU2VydmVyPg==</ServerInfoResponse><UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1"><License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD4zN2U2MjNlOC0xYmM5LTRhN2UtYjhhZS0wODIyYTQ5OWY1MzE8L1Byb2R1Y3RJRD48UEZNPjQzNTg2UGV0ZXJKdWhhc3ouVWx0aW1hdGVTdWRva3VTb2x2ZXJfM2p2azR6Y3k3NG1qMjwvUEZNPjxIYXJkd2FyZUlEPlhBQUFBQk1BTGdBQUFBRUFBZ0FCQUFFQUFRQUJBQUFBQVFBQkFBRUFsaXYrbGFRUkRGem10MklGL0JUbklXT3BJVEFBSEEwQUFnQUJBUUFDQlFBREFRQUVBZ0FGQUFBR0FRQUhBQUFJQndBSkF3QUtBUUFMQUFBTUJ3QT08L0hhcmR3YXJlSUQ+PE1hY2hpbmVJRD5hMTQ5MmNjZC02MzlmLTQyYjUtYTNiOS0wYTJmNTRlNGFiZGE8L01hY2hpbmVJRD48VXNlcklEPjdmZjQzMTgxYzgyZjI2ZWE8L1VzZXJJRD48L0JpbmRpbmc+PExpY2Vuc2VJbmZvIFR5cGU9IlRyaWFsIj48SXNzdWVkRGF0ZT4yMDEyLTExLTAxVDA3OjI1OjAxWjwvSXNzdWVkRGF0ZT48TGFzdFVwZGF0ZURhdGU+MjAxMi0xMS0wMVQwNzoyNTowMVo8L0xhc3RVcGRhdGVEYXRlPjxFeHBpcmF0aW9uRGF0ZT4yMDEyLTExLTA4VDA3OjI1OjAxWjwvRXhwaXJhdGlvbkRhdGU+PC9MaWNlbnNlSW5mbz48U2lnbmF0dXJlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48U2lnbmVkSW5mbz48Q2Fub25pY2FsaXphdGlvbk1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMTAveG1sLWV4Yy1jMTRuIyIgLz48U2lnbmF0dXJlTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxkc2lnLW1vcmUjcnNhLXNoYTI1NiIgLz48UmVmZXJlbmNlIFVSST0iIj48VHJhbnNmb3Jtcz48VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI2VudmVsb3BlZC1zaWduYXR1cmUiIC8+PC9UcmFuc2Zvcm1zPjxEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGVuYyNzaGEyNTYiIC8+PERpZ2VzdFZhbHVlPkM2OWFYaThweExpVmJRdmlKc1NpZ0IyamFVZk5PdG55ZE1ib2ZRRkxiSEE9PC9EaWdlc3RWYWx1ZT48L1JlZmVyZW5jZT48L1NpZ25lZEluZm8+PFNpZ25hdHVyZVZhbHVlPlBRdGxZV2J2cFRFMHhlR2FvMDdHakZROU5OUTl5d0RlVUEwcEpvSzNkTnIwcWpmRkhSeVc4M0RMYmFST24xeEtFRi9uYmMvWUFrZTFPMENmR1lRbkFEWW1DTUt4YjVrT0NnUnBHTHJLSWl0cGQ0UDczUmtwaXhTTFRtMmk4ck9NejdnL29JVkJTMWdnOWJNMUxNazRBS3RFQjd5TE9rUGN6S2xKUXptZHNneUlQVjNMdkR0MmV5clNwbU4vRGwxREYvRm5TNTVFUlk3ZHVjQVoyTkE1TzlTTlVFeXJNQ2hHRzhPUzI4d0d0S0dDTXIwWUFHN2s3Z2hJcUhIN3Zna0VKL0ZsdDdRTEw0QWdYUDNqRndxcmN3cXRKMTlUMmFjK3kxWWlOU3pDWFBYeEVjbGkxYTIvOXJ5OXNqVEFpVnM5OWpiTHpJMXZzZC9sdk42NnNFUnBmdz09PC9TaWduYXR1cmVWYWx1ZT48L1NpZ25hdHVyZT48L0xpY2Vuc2U+</License></UpdatedLicense></LicenseResponse></LicensingResponse></Result><TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId></PurchaseResponse>
+
+<?xml version="1.0" encoding="utf-8"?>
+<PurchaseResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Success>true</Success>
+  <ErrorCode>0</ErrorCode>
+  <Redirect xsi:nil="true" />
+  <PCSIsNotArmSupported xsi:nil="true" />
+  <Result>
+    <OfferPrice>60.00</OfferPrice>
+    <TotalSalesTax>0</TotalSalesTax>
+    <TotalTaxRate>0</TotalTaxRate>
+    <TotalPrice>0</TotalPrice>
+    <Currency>RUB</Currency>
+    <CurrencySymbol>ð.</CurrencySymbol>
+    <TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId>
+    <ReleaseGuid>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</ReleaseGuid>
+    <ProductTileData>
+      <Pt>
+        <I>37e623e8-1bc9-4a7e-b8ae-0822a499f531</I>
+        <R>35ea62ae-65db-4f07-85b5-bd099f5d3cbc</R>
+        <B>5ee87ffb-cf36-4abf-91c7-520869c18bb9</B>
+        <Pfn>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</Pfn>
+        <T>Ultimate Sudoku Solver</T>
+        <Wr>3</Wr>
+        <Ico>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/Icon.26635.png</Ico>
+        <Bg>#FFFFFF</Bg>
+        <Fg>dark</Fg>
+        <R0 />
+        <C>
+          <I>3</I>
+          <N>Games</N>
+        </C>
+        <Sc>
+          <I>38</I>
+          <N>Puzzle</N>
+        </Sc>
+        <Typ>1</Typ>
+        <Acc>false</Acc>
+        <Dca>false</Dca>
+        <Try>true</Try>
+        <Tryd>7</Tryd>
+        <Lud>2012-11-01T07:13:37.803-07:00Z</Lud>
+        <Ats>
+          <At>
+            <N>Ultimate Sudoku Solver</N>
+            <Sn>Sudoku Solver</Sn>
+            <Bg>#FFFFFF</Bg>
+            <Fg>dark</Fg>
+            <Mai>App</Mai>
+            <Logo>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.2.26635.27230.png</Logo>
+            <Img>
+              <T>3</T>
+              <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U>
+            </Img>
+            <Imgs>
+              <Img>
+                <T>1</T>
+                <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.1.26635.27230.png</U>
+              </Img>
+              <Img>
+                <T>3</T>
+                <U>35ea62ae-65db-4f07-85b5-bd099f5d3cbc/AppTile.3.26635.27230.png</U>
+              </Img>
+            </Imgs>
+          </At>
+        </Ats>
+      </Pt>
+    </ProductTileData>
+    <AlreadyOwned>false</AlreadyOwned>
+    <LicensingResponse>
+      <LicenseResponse Version="1" ErrorCode="0x0" LicensePage="0" InAppPage="0">
+        <ServerInfoResponse>77u/PFNlcnZlcj48SW5mbyBOPSIzNDg5NTMyNzIxIj48TWFjaGluZUlEPmExNDkyY2NkLTYzOWYtNDJiNS1hM2I5LTBhMmY1NGU0YWJkYTwvTWFjaGluZUlEPjxDdXJyZW50VGltZT4yMDEyLTExLTAxVDA3OjI1OjAxWjwvQ3VycmVudFRpbWU+PC9JbmZvPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIiAvPjxTaWduYXR1cmVNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiAvPjxSZWZlcmVuY2UgVVJJPSIiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIgLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIgLz48RGlnZXN0VmFsdWU+cTVDOW5lcXdhUFJRQXhLRTZRN3ZJck1mVitIYjhmcTNhUloxZTNxOTVLaz08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+akFkN0xjZDRWdmVlR3dpVW1HdmUycThOQXE2WEE5QjBWL3l2cXpLa2J6Y0FzOUlHSG0ra1R1ZytPMmxvOUl0RGFvb05NU2NMWkkyUWZTOEhwRDhqS0cwS0tXUkxZeEpyVzdJRm9XdGtzMVlIUjdaUTFvb241ak5QSE1NQlZ4NXJNdGZyQkhRQk0xeGQ3YzIreGNSMG9sbkJFSjJhaGJWVVRnWG1JTCtXN2hpT28xZjVMb0EzS0JLbjAxb0NSLzlMNVVTSXhxS0ZYSXJvbStnZzc1VnRoV3hETkEzUnROalpKdnJDVmtPZ1N2aGE5elNlZktBajBldmpINDlBTTNmdG9taEkyTEE2Ky9BQ05PQ0pna0g2VC9KTDRjK0dhOUZ2UVFOMjE2cFRGdC92RzUxWXJ1Vy94SnJrM21EWXVONWNOTld5N1g5WVk4bjFiOUxsK3VEcG5nPT08L1NpZ25hdHVyZVZhbHVlPjwvU2lnbmF0dXJlPjwvU2VydmVyPg==</ServerInfoResponse>
+        <UpdatedLicense LicensesAllDone="1" InAppLicenseAllDone="1">
+          <License>77u/PExpY2Vuc2UgVmVyc2lvbj0iMSIgeG1sbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206d2luZG93czpzdG9yZTpsaWNlbnNpbmc6bHMiPjxCaW5kaW5nIEJpbmRpbmdfVHlwZT0iTWFjaGluZSI+PFByb2R1Y3RJRD4zN2U2MjNlOC0xYmM5LTRhN2UtYjhhZS0wODIyYTQ5OWY1MzE8L1Byb2R1Y3RJRD48UEZNPjQzNTg2UGV0ZXJKdWhhc3ouVWx0aW1hdGVTdWRva3VTb2x2ZXJfM2p2azR6Y3k3NG1qMjwvUEZNPjxIYXJkd2FyZUlEPlhBQUFBQk1BTGdBQUFBRUFBZ0FCQUFFQUFRQUJBQUFBQVFBQkFBRUFsaXYrbGFRUkRGem10MklGL0JUbklXT3BJVEFBSEEwQUFnQUJBUUFDQlFBREFRQUVBZ0FGQUFBR0FRQUhBQUFJQndBSkF3QUtBUUFMQUFBTUJ3QT08L0hhcmR3YXJlSUQ+PE1hY2hpbmVJRD5hMTQ5MmNjZC02MzlmLTQyYjUtYTNiOS0wYTJmNTRlNGFiZGE8L01hY2hpbmVJRD48VXNlcklEPjdmZjQzMTgxYzgyZjI2ZWE8L1VzZXJJRD48L0JpbmRpbmc+PExpY2Vuc2VJbmZvIFR5cGU9IlRyaWFsIj48SXNzdWVkRGF0ZT4yMDEyLTExLTAxVDA3OjI1OjAxWjwvSXNzdWVkRGF0ZT48TGFzdFVwZGF0ZURhdGU+MjAxMi0xMS0wMVQwNzoyNTowMVo8L0xhc3RVcGRhdGVEYXRlPjxFeHBpcmF0aW9uRGF0ZT4yMDEyLTExLTA4VDA3OjI1OjAxWjwvRXhwaXJhdGlvbkRhdGU+PC9MaWNlbnNlSW5mbz48U2lnbmF0dXJlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48U2lnbmVkSW5mbz48Q2Fub25pY2FsaXphdGlvbk1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMTAveG1sLWV4Yy1jMTRuIyIgLz48U2lnbmF0dXJlTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8wNC94bWxkc2lnLW1vcmUjcnNhLXNoYTI1NiIgLz48UmVmZXJlbmNlIFVSST0iIj48VHJhbnNmb3Jtcz48VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI2VudmVsb3BlZC1zaWduYXR1cmUiIC8+PC9UcmFuc2Zvcm1zPjxEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGVuYyNzaGEyNTYiIC8+PERpZ2VzdFZhbHVlPkM2OWFYaThweExpVmJRdmlKc1NpZ0IyamFVZk5PdG55ZE1ib2ZRRkxiSEE9PC9EaWdlc3RWYWx1ZT48L1JlZmVyZW5jZT48L1NpZ25lZEluZm8+PFNpZ25hdHVyZVZhbHVlPlBRdGxZV2J2cFRFMHhlR2FvMDdHakZROU5OUTl5d0RlVUEwcEpvSzNkTnIwcWpmRkhSeVc4M0RMYmFST24xeEtFRi9uYmMvWUFrZTFPMENmR1lRbkFEWW1DTUt4YjVrT0NnUnBHTHJLSWl0cGQ0UDczUmtwaXhTTFRtMmk4ck9NejdnL29JVkJTMWdnOWJNMUxNazRBS3RFQjd5TE9rUGN6S2xKUXptZHNneUlQVjNMdkR0MmV5clNwbU4vRGwxREYvRm5TNTVFUlk3ZHVjQVoyTkE1TzlTTlVFeXJNQ2hHRzhPUzI4d0d0S0dDTXIwWUFHN2s3Z2hJcUhIN3Zna0VKL0ZsdDdRTEw0QWdYUDNqRndxcmN3cXRKMTlUMmFjK3kxWWlOU3pDWFBYeEVjbGkxYTIvOXJ5OXNqVEFpVnM5OWpiTHpJMXZzZC9sdk42NnNFUnBmdz09PC9TaWduYXR1cmVWYWx1ZT48L1NpZ25hdHVyZT48L0xpY2Vuc2U+</License>
+        </UpdatedLicense>
+      </LicenseResponse>
+    </LicensingResponse>
+  </Result>
+  <TransactionId>c22d8de3-6e76-4969-a411-f4114b337083</TransactionId>
+</PurchaseResponse>
+
+
+
+*** ServerInfoResponse (base64) :
+
+<Server><Info N="3489532721"><MachineID>a1492ccd-639f-42b5-a3b9-0a2f54e4abda</MachineID><CurrentTime>2012-11-01T07:25:01Z</CurrentTime></Info><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>q5C9neqwaPRQAxKE6Q7vIrMfV+Hb8fq3aRZ1e3q95Kk=</DigestValue></Reference></SignedInfo><SignatureValue>jAd7Lcd4VveeGwiUmGve2q8NAq6XA9B0V/yvqzKkbzcAs9IGHm+kTug+O2lo9ItDaooNMScLZI2QfS8HpD8jKG0KKWRLYxJrW7IFoWtks1YHR7ZQ1oon5jNPHMMBVx5rMtfrBHQBM1xd7c2+xcR0olnBEJ2ahbVUTgXmIL+W7hiOo1f5LoA3KBKn01oCR/9L5USIxqKFXIrom+gg75VthWxDNA3RtNjZJvrCVkOgSvha9zSefKAj0evjH49AM3ftomhI2LA6+/ACNOCJgkH6T/JL4c+Ga9FvQQN216pTFt/vG51YruW/xJrk3mDYuN5cNNWy7X9YY8n1b9Ll+uDpng==</SignatureValue></Signature></Server>
+
+<Server>
+  <Info N="3489532721">
+    <MachineID>a1492ccd-639f-42b5-a3b9-0a2f54e4abda</MachineID>
+    <CurrentTime>2012-11-01T07:25:01Z</CurrentTime>
+  </Info>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>q5C9neqwaPRQAxKE6Q7vIrMfV+Hb8fq3aRZ1e3q95Kk=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>jAd7Lcd4VveeGwiUmGve2q8NAq6XA9B0V/yvqzKkbzcAs9IGHm+kTug+O2lo9ItDaooNMScLZI2QfS8HpD8jKG0KKWRLYxJrW7IFoWtks1YHR7ZQ1oon5jNPHMMBVx5rMtfrBHQBM1xd7c2+xcR0olnBEJ2ahbVUTgXmIL+W7hiOo1f5LoA3KBKn01oCR/9L5USIxqKFXIrom+gg75VthWxDNA3RtNjZJvrCVkOgSvha9zSefKAj0evjH49AM3ftomhI2LA6+/ACNOCJgkH6T/JL4c+Ga9FvQQN216pTFt/vG51YruW/xJrk3mDYuN5cNNWy7X9YY8n1b9Ll+uDpng==</SignatureValue>
+  </Signature>
+</Server>
+
+TO BE HASHED :
+<Server>
+  <Info N="4268317542">
+    <MachineID>a1492ccd-639f-42b5-a3b9-0a2f54e4abda</MachineID>
+    <CurrentTime>2012-11-01T07:35:21Z</CurrentTime>
+  </Info>
+</Server>
+
+
+*** License (base64) :
+
+
+<License Version="1" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls"><Binding Binding_Type="Machine"><ProductID>37e623e8-1bc9-4a7e-b8ae-0822a499f531</ProductID><PFM>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</PFM><HardwareID>XAAAABMALgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID><MachineID>a1492ccd-639f-42b5-a3b9-0a2f54e4abda</MachineID><UserID>7ff43181c82f26ea</UserID></Binding><LicenseInfo Type="Trial"><IssuedDate>2012-11-01T07:25:01Z</IssuedDate><LastUpdateDate>2012-11-01T07:25:01Z</LastUpdateDate><ExpirationDate>2012-11-08T07:25:01Z</ExpirationDate></LicenseInfo><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>C69aXi8pxLiVbQviJsSigB2jaUfNOtnydMbofQFLbHA=</DigestValue></Reference></SignedInfo><SignatureValue>PQtlYWbvpTE0xeGao07GjFQ9NNQ9ywDeUA0pJoK3dNr0qjfFHRyW83DLbaROn1xKEF/nbc/YAke1O0CfGYQnADYmCMKxb5kOCgRpGLrKIitpd4P73RkpixSLTm2i8rOMz7g/oIVBS1gg9bM1LMk4AKtEB7yLOkPczKlJQzmdsgyIPV3LvDt2eyrSpmN/Dl1DF/FnS55ERY7ducAZ2NA5O9SNUEyrMChGG8OS28wGtKGCMr0YAG7k7ghIqHH7vgkEJ/Flt7QLL4AgXP3jFwqrcwqtJ19T2ac+y1YiNSzCXPXxEcli1a2/9ry9sjTAiVs99jbLzI1vsd/lvN66sERpfw==</SignatureValue></Signature></License>
+
+<License Version="1" xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+  <Binding Binding_Type="Machine">
+    <ProductID>37e623e8-1bc9-4a7e-b8ae-0822a499f531</ProductID>
+    <PFM>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</PFM>
+    <HardwareID>XAAAABMALgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+    <MachineID>a1492ccd-639f-42b5-a3b9-0a2f54e4abda</MachineID>
+    <UserID>7ff43181c82f26ea</UserID>
+  </Binding>
+  <LicenseInfo Type="Trial">
+    <IssuedDate>2012-11-01T07:25:01Z</IssuedDate>
+    <LastUpdateDate>2012-11-01T07:25:01Z</LastUpdateDate>
+    <ExpirationDate>2012-11-08T07:25:01Z</ExpirationDate>
+  </LicenseInfo>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>C69aXi8pxLiVbQviJsSigB2jaUfNOtnydMbofQFLbHA=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>PQtlYWbvpTE0xeGao07GjFQ9NNQ9ywDeUA0pJoK3dNr0qjfFHRyW83DLbaROn1xKEF/nbc/YAke1O0CfGYQnADYmCMKxb5kOCgRpGLrKIitpd4P73RkpixSLTm2i8rOMz7g/oIVBS1gg9bM1LMk4AKtEB7yLOkPczKlJQzmdsgyIPV3LvDt2eyrSpmN/Dl1DF/FnS55ERY7ducAZ2NA5O9SNUEyrMChGG8OS28wGtKGCMr0YAG7k7ghIqHH7vgkEJ/Flt7QLL4AgXP3jFwqrcwqtJ19T2ac+y1YiNSzCXPXxEcli1a2/9ry9sjTAiVs99jbLzI1vsd/lvN66sERpfw==</SignatureValue>
+  </Signature>
+</License>
+
+
+TO BE HASHED :
+
+<License xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls" Version="1">
+  <Binding Binding_Type="Machine">
+    <ProductID>37e623e8-1bc9-4a7e-b8ae-0822a499f531</ProductID>
+    <PFM>43586PeterJuhasz.UltimateSudokuSolver_3jvk4zcy74mj2</PFM>
+    <HardwareID>XAAAABMALgAAAAEAAgABAAEAAQABAAAAAQABAAEAliv+laQRDFzmt2IF/BTnIWOpITAAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+    <MachineID>BBBBBBBB-AAAA-AAAA-BBBB-CCCCCCCCCCCC</MachineID>
+    <UserID>7ff43181c82f26ea</UserID>
+  </Binding>
+  <LicenseInfo Type="Trial">
+    <IssuedDate>2012-11-01T07:25:01Z</IssuedDate>
+    <LastUpdateDate>2012-11-01T07:25:01Z</LastUpdateDate>
+    <ExpirationDate>2012-11-08T07:25:01Z</ExpirationDate>
+  </LicenseInfo>
+</License>

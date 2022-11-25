@@ -1,0 +1,86 @@
+After numerous experiments I have discovered how microsoft track win8
+devices in their store.
+This information can be used to reset all trials and make microsoft
+see your device as new - never seen before - without reinstalling windows.
+
+To install something from windows store you need to enter your liveID.
+Microsoft under your liveid keep track about everything you have ever installed,
+license status - full,trial,expiration date.
+If you move to another device and enter the same liveid - license sync occurs.
+If you install a trial app , uninstall it, enter another liveid and
+try to install it again - windows store says "you have installed this
+app on this computer before" and prohibit installation. Installation
+is possible if trial is not expired and you use the same liveid
+you first used to acquire trial license on this device.
+Furthermore, If you even reinstall windows and try to use previous liveid
+store will prohibit installation.
+
+Reasonable question arises. How microsoft track your device.
+I know exactly how. It tracks MachineID GUID.
+On clean windows there's no MachineID.
+First time you install any application from windows store MachineID is created.
+If you use you previous liveid microsoft query their database for hardwareid
+presented by your windows store application.
+If it finds something similar it return previous MachineID with all logical
+consequences. Store will not allow you try and try the app endlessly using different LiveIDs
+on the same machine.
+MachineID association is supposed to be one time and forever.
+It is never supposed to change.
+Idea here NOT TO USE YOUR PREVIOUS LIVEID.
+If no MachineID is associated to the device and you use clean liveid
+microsoft has no way to associate your device with something from their
+database. MS does not verify your IP. It also assumes there may be
+many computers with the same hardwareid. The only piece of information
+that help to track you is your LiveID.
+
+Second question is. Is it possible to remove MachineID without reinstalling ?
+The answer is YES.
+MachineID is stored under registry key
+HKEY_LOCAL_MACHINE\SYSTEM\WPA\39EEE4D3-6EBB-4C0A-8CBC-421AB72D114E-1
+
+Once created this key cannot be deleted. It is protected by windows kernel.
+But it is still posible to delete it.
+You must boot from windows installation disk. Press shift+F10 and you will
+get command prompt. Run regedit. Place cursor on HKEY_LOCAL_MACHINE node.
+Map SYSTEM hive from your windows installation.
+Common location is D:\windows\system32\config\system.
+Remove
+HKEY_LOCAL_MACHINE\<mapping node>\WPA\39EEE4D3-6EBB-4C0A-8CBC-421AB72D114E-1.
+Then boot to your windows installation.
+Go to windows store settings and sign out from your current liveid.
+Enter there clean liveid. (I suppose you dont use LiveID for windows logon - its very bad idea !)
+First time you install an app you'll get new MachineID.
+And you will also be able to try all trial apps again.
+Microsoft will give you trial licenses because it thinks you are new customer.
+
+Format of stored machine ID :
+
+<Machine>
+  <Registration>
+    <MachineID>12345678-cbd7-414b-c217-edb5660512ae</MachineID>
+    <HardwareID>XAAAABMALgAAAAEAAwABAAEAAAABAAAAAQABAAEA+l6kPOeDJGbmt/7biAR26Hb5GDEAHA0AAgABAQACBQADAQAEAgAFAAAGAQAHAAAIBwAJAwAKAQALAAAMBwA=</HardwareID>
+  </Registration>
+  <Signature xmlns="http :// www .w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http :// www .w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http :// www .w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http :// www .w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http :// www .w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>92pU0KnXWLTC3Xnj+ka0hnLT2eYNcRD3auqW7jQ1u5o=</DigestValue>
+      </Reference>
+    </SignedInfo>
+</Machine>
+
+It is signed by microsoft and verified by WSService on its startup.
+WSServiceCrk also removes signature checks from MachineID - it removes ALL signature checks from WSService.
+You can tamper with MachineID. But if you change it manually and remove
+WSServiceCrk - WSService will not be able to verify signature and may fail.
+Better to delete it and request new ID. MS will sign it for you.
+
+Also it is desired to delete
+"C:\Users\user\AppData\Local\Packages\WinStore_cw5 n1h2txyewy\AC\Microsoft\Windows Store\*"
+while Windows Store is not running.
+It keeps there some local cache about trial expiration. 

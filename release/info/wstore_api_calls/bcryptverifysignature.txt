@@ -1,0 +1,9 @@
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B87EE068 cbHash=32 pbSignature=51B8C616B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B87EE048 cbHash=32 pbSignature=51B8DD16B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B897E038 cbHash=32 pbSignature=51B8DB16B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B897DE78 cbHash=32 pbSignature=51B8DF16B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B897DE78 cbHash=32 pbSignature=51B8CA16B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B897DF18 cbHash=32 pbSignature=51B8C416B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B897DE28 cbHash=32 pbSignature=51B8DA16B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B8C0F0D8 cbHash=32 pbSignature=51B8D416B8 cbSignature=256 dwFlags=00000002
+ntstatus=00000000 hKey=51B79C67D0 pPaddingInfo=7FEF576E4C0 pbHash=51B8C0F068 cbHash=32 pbSignature=51B8CB16B8 cbSignature=256 dwFlags=00000002

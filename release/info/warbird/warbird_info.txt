@@ -1,0 +1,67 @@
+Some words about what WARBIRD is.
+In earlier versions of windows SPP policy values were queried by user mode processes directly through special API.
+ntdll!NtQueryLicenseValue
+slc!SLGetWindowsInformation
+These calls are relatively easy to intercept and fake.
+In win8/2012 MS created another path - through obfuscated queries.
+
+1) User mode process prepare encrypted query and pass it to
+NtSetSystemInformation(134,...)
+Construction and encryption of data blocks is done in heavy template-expanded functions.
+Its hard to analyze them. MS also made encryption algorithms in those functions randomly generated. 
+Notepad, Calc, WSService have different cryptors.
+Query block also contain additional encoded information about transforms and constants used in query data encryption and same thing to be used for encrypting response (they are different !).
+
+2) Flow goes to kernel function. Its also very huge - even bigger than in user mode.
+It decrypts quiry, executes command encoded in the query, constructs and encrypts response and returns it to the caller.
+One of known commands - Query Policy Value.
+I noticed a few more commands. Currently I have only guesses what they do.
+They are somehow related to licensing of metro apps.
+When you see "X" on app tile because of bad license - its not just registry magic.
+Protection system goes to kernel directly !
+
+3) Caller decrypts response and acts according to the returned data.
+
+
+The thing I discovered is only beginning.
+It goes to software protection platform.
+If we dig deeper many interesting things will be revealed.
+May be about windows activation. WSService has lots of SPPSVC derived code.
+
+---------------------------------------------------------------------------------------------
+
+Encrypted message format :
+contain 3 chunks :
+Chunk 0 - (variable size) - encrypted query ChunkedMessage
+Chunk 1,2 - (160+8 bytes) - cipher params for the query
+
+
+Decrypted data format for both query and result (I call it ChunkedMessage)
++0 - DWORD - chunk count
++4 - DWORD - total message data size (without this 8 byte header)
++8 - chunks...
+Chunk format :
++0 - DWORD - chunk size
++4 - chunk data
+
+Query chunk meaning for CommandID = 0 (QueryPolicyValue) :
+Chunk  0 - (DWORD) CommandID.
+Chunks 1+2 - (160+8 bytes) - cipher params for encoding result
+Chunk  3 - (QWORD) calling process put here rdtsc. its not checked in any way in kernel and serves randomization
+and anti-spoofing purposes
+Chunk 4 - Unicode policy value name
+Chunk 5 - Unknown, set to 0
+Chunk 6 - Maximum expected value data length in bytes
+
+Result chunk meaning for CommandID = 0 (QueryPolicyValue)
+Chunk 0 - (DWORD) unknown
+Chunk 1 - copy of rdtsc used in the query. I bet querier check if it matches original rdtsc.
+ This trick has anti spoofing purposes.
+Chunk 2 - (DWORD) policy value type
+ #define PPV_TYPE_SZ 1
+ #define PPV_TYPE_BINARY 3
+ #define PPV_TYPE_DWORD 4
+ #define PPV_TYPE_MULTI_SZ 7
+Chunk 3 - (DWORD) policy value data
+Chunk 4 - (DWORD) value length in bytes
+Chunk 5 - (DWORD) unknown, 0 returned

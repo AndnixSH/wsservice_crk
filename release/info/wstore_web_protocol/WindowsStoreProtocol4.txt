@@ -1,0 +1,22 @@
+https://lic.apps.microsoft.com
+
+*** Purchase
+
+POST /Licensing/UserPortal/GetApplicationList/6.2.9200-1/615/?PageNum=0 HTTP/1.1
+
+*** Response
+
+<?xml version="1.0" encoding="utf-8"?>
+<MyApplications Version="1.0" ErrorCode="0x0" AllDone="1">
+  <ApplicationList>
+    <AppLicense ProductID="0cd606d5-c0fb-46c8-b9dc-1459ac714e17" Type="Trial" Status="Active" ExpiryDate="2012-11-15T14:54:07Z" IssueDate="2012-10-31T14:54:07Z" />
+    <AppLicense ProductID="051f560e-5e9b-4dad-8b2e-fa5e0b05a480" Type="Full" Status="Active" IssueDate="2012-10-31T08:57:32Z" />
+    <AppLicense ProductID="f022389f-f3a6-417e-ad23-704fbdf57117" Type="Full" Status="Active" IssueDate="2012-10-31T08:17:34Z" />
+    <AppLicense ProductID="e501241f-0574-448d-853b-d757d91766ba" Type="Trial" Status="Expired" ExpiryDate="2012-10-29T16:50:54Z" IssueDate="2012-10-28T16:50:54Z" />
+    <AppLicense ProductID="a080e316-b7ff-4d81-831c-2967a9c2357d" Type="Full" Status="Active" IssueDate="2012-10-28T17:19:49Z" />
+    <AppLicense ProductID="773000d0-4902-43be-96a3-f58da3faa2e1" Type="Full" Status="Active" IssueDate="2012-10-28T17:12:26Z" />
+    <AppLicense ProductID="74c708de-b624-4fe4-a43d-051c7f9230be" Type="Trial" Status="Active" IssueDate="2012-10-28T15:36:29Z" />
+    <AppLicense ProductID="45ac18d7-e742-494f-a1b1-009aa412a179" Type="Full" Status="Active" IssueDate="2012-10-27T08:40:50Z" />
+    <AppLicense ProductID="173ae60b-0f24-41f1-9c45-9bdd833a343b" Type="Full" Status="Active" IssueDate="2012-10-25T07:26:57Z" />
+  </ApplicationList>
+</MyApplications>

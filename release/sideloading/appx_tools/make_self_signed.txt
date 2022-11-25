@@ -1,0 +1,3 @@
+makecert -r -pe -n "CN=My SPC" -a sha256 -cy end -sky signature -sv MySPC.pvk MySPC.cer
+pvk2pfx -pvk MySPC.pvk -spc MySPC.cer -pfx MySPC.pfx
+rem then import My SPC cert to LOCAL MACHINE TRUSTED ROOT. NOT PER USER TRUSTED ROOT.
